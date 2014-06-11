@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="8557e7db-7af6-474d-87b3-59449602ee08" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <layers>
+    <layer Id="a3423ae2-efef-4b1e-b502-7060a16aa1a9" name="Command Processor">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="1c889a04-3dee-4c1a-86fb-a65b05be189d" direction="Forward">
+          <layerMoniker Id="786fcb84-bf51-4f62-a0dc-997d357ecb33" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+    <layer Id="118df52e-9591-4196-9464-7f93a6ff4ad3" name="Remote Control">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="fe0e4256-3f51-4e38-ae27-ea666e8123a1" direction="Forward">
+          <layerMoniker Id="a3423ae2-efef-4b1e-b502-7060a16aa1a9" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+    <layer Id="b0d7d97d-f449-441b-b903-da372cfcfb27" name="Communication">
+      <childLayers>
+        <layer Id="4b1a370f-4b41-4f2d-98db-b0ef1d89199e" name="IrEncoder">
+          <dependencyToLayers>
+            <dependencyFromLayerToLayer Id="9fe0418c-9ff6-47d8-a39a-bb666887e1c6" direction="Forward">
+              <layerMoniker Id="edecb33a-b0e3-4592-867c-05ce8e02edd0" />
+            </dependencyFromLayerToLayer>
+          </dependencyToLayers>
+        </layer>
+        <layer Id="786fcb84-bf51-4f62-a0dc-997d357ecb33" name="Message">
+          <dependencyToLayers>
+            <dependencyFromLayerToLayer Id="91255987-d754-485d-89c9-d4dacddc4953" direction="Forward">
+              <layerMoniker Id="4b1a370f-4b41-4f2d-98db-b0ef1d89199e" />
+            </dependencyFromLayerToLayer>
+          </dependencyToLayers>
+        </layer>
+      </childLayers>
+    </layer>
+    <layer Id="fa73f366-0342-44a4-82af-9889db56b3ac" name="Actuators">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="6edf54d2-035e-4601-8a5a-f1333090667a" direction="Forward">
+          <layerMoniker Id="118df52e-9591-4196-9464-7f93a6ff4ad3" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <childLayers>
+        <layer Id="f9e0e47e-ba18-4b24-8ccf-ae3ace6eef9c" name="Motor" />
+        <layer Id="61de85e3-66ed-4c58-9515-58ac53e29bd6" name="Servo" />
+        <layer Id="50c55a25-c417-4cbe-933e-1b5b3e40b083" name="LED" />
+      </childLayers>
+    </layer>
+    <layer Id="4d02effb-87a8-4d7d-b459-ecd666af8ce6" name="Intelligence">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="fa3abd3e-155a-4ba8-9547-804c4f9843fe" direction="Forward">
+          <layerMoniker Id="fa73f366-0342-44a4-82af-9889db56b3ac" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+    <layer Id="1b8a6e58-cfd2-4711-bef6-e01e33715cc8" name="Hardware">
+      <childLayers>
+        <layer Id="edecb33a-b0e3-4592-867c-05ce8e02edd0" name="SPI Port + LED" />
+      </childLayers>
+    </layer>
+  </layers>
+</layerModel>
