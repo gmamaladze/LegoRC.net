@@ -4,6 +4,8 @@
 
 #region usings
 
+using System.Reflection;
+using System.Text;
 using Gma.Netmf.Hardware.Lego.PowerFunctions.Control;
 
 #endregion
@@ -73,6 +75,24 @@ namespace Gma.Netmf.Hardware.Lego.PowerFunctions.Communication
         {
             //Longitudinal Redundancy Check
             return 0xf ^ nibble1 ^ nibble2 ^ nibble3;
+        }
+
+        public override string ToString()
+        {
+            var result = new StringBuilder();
+            var data = GetData();
+            result.Append('|');
+            for (int nibbleNr = 0; nibbleNr < 4; nibbleNr++)
+            {
+                for (int bitNr = 0; bitNr < 4; bitNr++)
+                {
+                    bool bit = ((data << (nibbleNr * 4 + bitNr)) & 0x8000) != 0;
+                    char ch = bit ? '1' : '0';
+                    result.Append(ch);
+                }
+                result.Append('|');
+            }
+            return result.ToString();
         }
     }
 }

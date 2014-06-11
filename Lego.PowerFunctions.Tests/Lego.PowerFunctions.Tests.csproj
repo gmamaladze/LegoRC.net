@@ -42,7 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PwmSpeedExtensionsTest.cs" />
+    <Compile Include="Communication\IrPulseEncoderTests.cs" />
+    <Compile Include="Control\PwmSpeedExtensionsTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -53,6 +54,11 @@
       <Project>{de7221e0-f7d2-4263-97f6-dee1819ad2d6}</Project>
       <Name>Lego.PowerFunctions</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Communication\PulseEncoderTestCases.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
