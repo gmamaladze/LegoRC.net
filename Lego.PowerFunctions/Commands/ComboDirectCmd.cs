@@ -10,30 +10,28 @@ using Gma.Netmf.Hardware.Lego.PowerFunctions.Control;
 
 namespace Gma.Netmf.Hardware.Lego.PowerFunctions.Commands
 {
-    public class ComboDirectCmd : Command
+    public struct ComboDirectCmd : ICommand
     {
-        private readonly DirectState m_BlueState;
-        private readonly DirectState m_RedState;
 
         public ComboDirectCmd(DirectState blueState, DirectState redState)
+            : this()
         {
-            m_BlueState = blueState;
-            m_RedState = redState;
+            BlueState = blueState;
+            RedState = redState;
         }
 
-        public DirectState BlueState
-        {
-            get { return m_BlueState; }
-        }
+        public DirectState BlueState { get; set; }
 
-        public DirectState RedState
-        {
-            get { return m_RedState; }
-        }
+        public DirectState RedState { get; set; }
 
-        public override CommandType CommandType
+        public CommandType CommandType
         {
             get { return CommandType.ComboDirect; }
+        }
+
+        public override string ToString()
+        {
+            return CommandType + " [" + RedState + "," + BlueState + "]";
         }
     }
 }

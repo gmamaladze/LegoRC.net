@@ -4,7 +4,7 @@
 
 namespace Gma.Netmf.Hardware.Lego.PowerFunctions.Communication
 {
-    internal enum Toggle : byte
+    public enum Toggle : byte
     {
         Even = 0,
         Odd = 1

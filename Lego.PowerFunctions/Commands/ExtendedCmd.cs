@@ -10,23 +10,23 @@ using Gma.Netmf.Hardware.Lego.PowerFunctions.Control;
 
 namespace Gma.Netmf.Hardware.Lego.PowerFunctions.Commands
 {
-    public class ExtendedCmd : Command
+    public struct ExtendedCmd : ICommand
     {
-        private readonly ExtFunction m_ExtFunction;
-
-        public ExtendedCmd(ExtFunction extFunction)
+        public ExtendedCmd(ExtFunction extFunction) : this()
         {
-            m_ExtFunction = extFunction;
+            ExtFunction = extFunction;
         }
 
-        public override CommandType CommandType
+        public CommandType CommandType
         {
             get { return CommandType.Extended; }
         }
 
-        public ExtFunction ExtFunction
+        public ExtFunction ExtFunction { get; set; }
+
+        public override string ToString()
         {
-            get { return m_ExtFunction; }
+            return CommandType + " [" + ExtFunction + "]";
         }
     }
 }

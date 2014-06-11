@@ -10,31 +10,28 @@ using Gma.Netmf.Hardware.Lego.PowerFunctions.Control;
 
 namespace Gma.Netmf.Hardware.Lego.PowerFunctions.Commands
 {
-    public class ComboPwmCmd : Command
+    public struct ComboPwmCmd : ICommand
     {
-        private readonly PwmSpeed m_BlueSpeed;
-        private readonly PwmSpeed m_RedSpeed;
-
         public ComboPwmCmd(PwmSpeed redSpeed, PwmSpeed blueSpeed)
+            : this()
         {
-            m_RedSpeed = redSpeed;
-            m_BlueSpeed = blueSpeed;
+            RedSpeed = redSpeed;
+            BlueSpeed = blueSpeed;
         }
 
-        public PwmSpeed RedSpeed
-        {
-            get { return m_RedSpeed; }
-        }
-
-        public PwmSpeed BlueSpeed
-        {
-            get { return m_BlueSpeed; }
-        }
+        public PwmSpeed RedSpeed { get; set; }
+       
+        public PwmSpeed BlueSpeed { get; set; }
 
 
-        public override CommandType CommandType
+        public CommandType CommandType
         {
             get { return CommandType.CompboPwm; }
+        }
+
+        public override string ToString()
+        {
+            return CommandType + " [" + RedSpeed + "," + BlueSpeed + "]";
         }
     }
 }

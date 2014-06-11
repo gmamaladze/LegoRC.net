@@ -50,7 +50,7 @@
     <Compile Include="Commands\ComboDirectCmd.cs" />
     <Compile Include="Control\DirectState.cs" />
     <Compile Include="Commands\ComboPwmCmd.cs" />
-    <Compile Include="Commands\Command.cs" />
+    <Compile Include="Commands\ICommand.cs" />
     <Compile Include="Control\RemoteControl.cs" />
     <Compile Include="Communication\ComboDirectMsg.cs" />
     <Compile Include="Communication\ComboPwmMsg.cs" />

@@ -24,7 +24,7 @@ namespace Gma.Netmf.Hardware.Lego.PowerFunctions.Commands
             m_Toggle = Toggle.Even;
         }
 
-        public void Execute(Command command)
+        public void Execute(ICommand command)
         {
             var message = MessageFactory.GetMessage(command, m_Channel, m_Toggle);
             m_Transmitter.Send(message);

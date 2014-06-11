@@ -11,44 +11,38 @@ using Gma.Netmf.Hardware.Lego.PowerFunctions.Control;
 
 namespace Gma.Netmf.Hardware.Lego.PowerFunctions.Commands
 {
-    public class SingleOutputCmd : Command
+    public struct SingleOutputCmd : ICommand
     {
-        private readonly int m_Data;
-        private readonly Output m_Output;
-        private readonly SingleOutputMode m_SingleOutputMode;
-
         public SingleOutputCmd(Output output, PwmSpeed speed)
+            : this()
         {
-            m_Output = output;
-            m_SingleOutputMode = SingleOutputMode.Pwm;
-            m_Data = (int) speed;
+            Output = output;
+            SingleOutputMode = SingleOutputMode.Pwm;
+            Data = (int) speed;
         }
 
         public SingleOutputCmd(Output output, IncDec incDec)
+            : this()
         {
-            m_Output = output;
-            m_SingleOutputMode = SingleOutputMode.IncDec;
-            m_Data = (int) incDec;
+            Output = output;
+            SingleOutputMode = SingleOutputMode.IncDec;
+            Data = (int) incDec;
         }
 
-        public override CommandType CommandType
+        public CommandType CommandType
         {
             get { return CommandType.SingleOutput; }
         }
 
-        internal SingleOutputMode SingleOutputMode
-        {
-            get { return m_SingleOutputMode; }
-        }
+        public SingleOutputMode SingleOutputMode { get; set; }
 
-        public Output Output
-        {
-            get { return m_Output; }
-        }
+        public Output Output { get; set; }
 
-        public int Data
+        public int Data { get; set; }
+
+        public override string ToString()
         {
-            get { return m_Data; }
+            return CommandType + " [" + Output + "," + Data + "]";
         }
     }
 }

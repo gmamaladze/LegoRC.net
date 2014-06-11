@@ -19,9 +19,16 @@ namespace Gma.Netmf.Hardware.Lego.PowerFunctions.Tests.Communication
     [TestFixture]
     public class IrPulseEncoderTests
     {
-        private const string PulseEncoderTestCases = "Communication\\PulseEncoderTestCases.txt";
+        private const string PulseEncoderTestCases = "Communication\\IrPulseEncoderTestCases.txt";
 
-        public static IEnumerable<TestCaseData> GetTestCasesFromFile()
+        [Test, TestCaseSource("GetTestCasesFromFile")]
+        public string RunTestCases(ushort message)
+        {
+            ushort[] data = IrPulseEncoder.Encode(message);
+            return GetPulseString(data);
+        }
+
+        private static IEnumerable<TestCaseData> GetTestCasesFromFile()
         {
             using (var testData = File.OpenText(PulseEncoderTestCases))
             {
@@ -90,13 +97,6 @@ namespace Gma.Netmf.Hardware.Lego.PowerFunctions.Tests.Communication
                 result.Append('|');
             }
             return result.ToString();
-        }
-
-        [Test, TestCaseSource("GetTestCasesFromFile")]
-        public string RunTestCases(ushort message)
-        {
-            ushort[] data = IrPulseEncoder.Encode(message);
-            return GetPulseString(data);
         }
     }
 }

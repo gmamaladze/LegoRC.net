@@ -14,7 +14,7 @@ namespace Gma.Netmf.Hardware.Lego.PowerFunctions.Communication
 {
     internal static class MessageFactory
     {
-        public static Message GetMessage(Command command, Channel channel, Toggle toggle)
+        public static Message GetMessage(ICommand command, Channel channel, Toggle toggle)
         {
             var commandType = command.CommandType;
             switch (commandType)

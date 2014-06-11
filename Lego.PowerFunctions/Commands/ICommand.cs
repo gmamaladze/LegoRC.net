@@ -4,8 +4,8 @@
 
 namespace Gma.Netmf.Hardware.Lego.PowerFunctions.Commands
 {
-    public abstract class Command
+    public interface ICommand
     {
-        public abstract CommandType CommandType { get; }
+        CommandType CommandType { get; }
     }
 }

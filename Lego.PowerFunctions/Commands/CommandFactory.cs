@@ -10,29 +10,29 @@ using Gma.Netmf.Hardware.Lego.PowerFunctions.Control;
 
 namespace Gma.Netmf.Hardware.Lego.PowerFunctions.Commands
 {
-    public class CommandFactory
+    public static class CommandFactory
     {
-        public static Command Create(ExtFunction extFunction)
+        public static ICommand Create(ExtFunction extFunction)
         {
             return new ExtendedCmd(extFunction);
         }
 
-        public static Command Create(DirectState blueState, DirectState redState)
+        public static ICommand Create(DirectState blueState, DirectState redState)
         {
             return new ComboDirectCmd(blueState, redState);
         }
 
-        public static Command Create(PwmSpeed redSpeed, PwmSpeed blueSpeed)
+        public static ICommand Create(PwmSpeed redSpeed, PwmSpeed blueSpeed)
         {
             return new ComboPwmCmd(redSpeed, blueSpeed);
         }
 
-        public static Command Create(Output output, IncDec incDec)
+        public static ICommand Create(Output output, IncDec incDec)
         {
             return new SingleOutputCmd(output, incDec);
         }
 
-        public static Command Create(Output output, PwmSpeed speed)
+        public static ICommand Create(Output output, PwmSpeed speed)
         {
             return new SingleOutputCmd(output, speed);
         }

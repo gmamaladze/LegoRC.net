@@ -4,7 +4,7 @@
 
 namespace Gma.Netmf.Hardware.Lego.PowerFunctions.Communication
 {
-    internal enum SingleOutputMode : byte
+    public enum SingleOutputMode : byte
     {
         Pwm = 0x00,
         IncDec = 0x01
