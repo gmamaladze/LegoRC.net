@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lego.PowerFunctions", "Lego
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lego.PowerFunctions.Tests", "Lego.PowerFunctions.Tests\Lego.PowerFunctions.Tests.csproj", "{D7AFA9A6-3F0A-4516-8D7C-675441C0904F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lego.PowerFunctions.UsageExample", "Lego.PowerFunctions.UsageExample\Lego.PowerFunctions.UsageExample.csproj", "{ED77C6CD-7C51-4FBF-B3C2-62E9F018D97A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,12 @@ Global
 		{D7AFA9A6-3F0A-4516-8D7C-675441C0904F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7AFA9A6-3F0A-4516-8D7C-675441C0904F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7AFA9A6-3F0A-4516-8D7C-675441C0904F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED77C6CD-7C51-4FBF-B3C2-62E9F018D97A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED77C6CD-7C51-4FBF-B3C2-62E9F018D97A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED77C6CD-7C51-4FBF-B3C2-62E9F018D97A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{ED77C6CD-7C51-4FBF-B3C2-62E9F018D97A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED77C6CD-7C51-4FBF-B3C2-62E9F018D97A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED77C6CD-7C51-4FBF-B3C2-62E9F018D97A}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
