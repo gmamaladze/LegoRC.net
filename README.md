@@ -1,4 +1,4 @@
 LegoRC.net
 ==========
 
-Implements Lego power functions infrared remote control protocol in .NET Micro Framework - NETMF Lego IR RC Driver
+The library allows to control Lego power functions (motors, servos, led, etc.) from Netduino using infrared remote control protocol.
