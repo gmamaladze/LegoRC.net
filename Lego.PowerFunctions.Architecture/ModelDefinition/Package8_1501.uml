@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="cc740c58-ff7f-44ae-a11a-3d581c40f41e"
+  name="Communication"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="eb7500e7-fbe9-4e48-8e91-2635b4ccb8d8"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Communication"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <enumeration
+        Id="22086b36-a128-4c15-9f8a-e1ffbaa1a1be"
+        name="Toggle"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="6995f481-119c-4ff4-a425-45f34d7f9fce"
+            handle="viewcode://./CodeSchema_Enum?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Communication Type%3DToggle"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="5af1fd06-5900-4d8d-8c95-77201aed4a0f"
+            name="enum"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="192f87b4-0b74-4396-942d-71b8d49bd55c">
+                <propertyInstance
+                  Id="add52964-6c28-4ba4-8f09-5ffcd489174d"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a5a1c294-933b-4e75-832e-39608df0690d">
+                <propertyInstance
+                  Id="a7d5836d-fb9e-473a-ad09-40ead2c4195f"
+                  name="BaseType"
+                  value="int" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8bd13d2b-cede-4127-b858-29c924ca85ff">
+                <propertyInstance
+                  Id="dbbe4d3e-dab8-4392-9d6c-e945ad4ead18"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </enumeration>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <enumeration
+        Id="ff3f9f86-a05a-473b-9005-44c09f34dd81"
+        name="Escape"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="b68ec274-49c1-4414-9e99-0e94c8260bc0"
+            handle="viewcode://./CodeSchema_Enum?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Communication Type%3DEscape"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="d27383f7-6bf5-4cf0-a520-47944877c365"
+            name="enum"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fe9ad0a0-f4fd-4530-a07c-5bd2d228d241">
+                <propertyInstance
+                  Id="c11857bd-11b6-4ea1-b2cd-f731c7281a0a"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ee7ea3b2-b18c-4855-8ecb-7fbb135c1830">
+                <propertyInstance
+                  Id="4ea5c15b-d784-4530-b69f-f625c617bd1c"
+                  name="BaseType"
+                  value="int" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="15eaf98e-217c-44cd-a216-f2dce0afca80">
+                <propertyInstance
+                  Id="bbfdec08-b207-4500-ac12-cfd5801ac45c"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </enumeration>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <enumeration
+        Id="f63b11ef-c1cb-4de3-8fa0-5e13d5ffa770"
+        name="IrPulse"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="bc7c5dc6-a823-48fe-94ba-45515c982513"
+            handle="viewcode://./CodeSchema_Enum?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Communication Type%3DIrPulse"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="9cf71dc8-35f4-4e46-84a1-2b959abc05cd"
+            name="enum"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7ab50bae-32c3-479d-8f5a-6400b8fe867c">
+                <propertyInstance
+                  Id="60f4a1cc-7599-4bac-a8ef-b18c93edf181"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="460a3bb6-75c9-4058-bf68-f9b2ad08bd3b">
+                <propertyInstance
+                  Id="ffb181c0-1f70-4520-9aec-a07ab207f57c"
+                  name="BaseType"
+                  value="int" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="840edc6f-5f24-41f4-b1dd-db2f72a9484b">
+                <propertyInstance
+                  Id="64604a71-d5c8-4f53-85b8-5b9a16b1d4df"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </enumeration>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <enumeration
+        Id="84fe0114-2567-4aad-9a8f-80f1dbe2bbfe"
+        name="SingleOutputMode"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="e98d05eb-0331-4635-8745-b15b0d968dc6"
+            handle="viewcode://./CodeSchema_Enum?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Communication Type%3DSingleOutputMode"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="05c86053-6eca-414d-bad4-575077ec270c"
+            name="enum"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ed8d5e76-f7bf-4cf3-811d-4bf8c73a5362">
+                <propertyInstance
+                  Id="19650ff8-56b2-47f3-8bd0-f2ed07d665e8"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e93bc2d4-d1c0-4720-ba40-c66b2fe9b4fb">
+                <propertyInstance
+                  Id="de4a6997-359e-477d-aadb-05d8cd07f053"
+                  name="BaseType"
+                  value="int" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f9c09b87-2e19-4849-a05b-1fc0726c794f">
+                <propertyInstance
+                  Id="088125fb-9b73-4798-a478-178f77ab4275"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </enumeration>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

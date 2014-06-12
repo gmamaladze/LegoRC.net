@@ -1,5 +1,67 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="8557e7db-7af6-474d-87b3-59449602ee08" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <comments>
+    <comment Id="cac8d81c-8329-49f4-9847-41e20c6c62e2" name="Comment1">
+      <body>Contains high level control code for vehicle or robot:
+ 
+	vehicle.TurnRight() </body>
+      <layerElements>
+        <linkFromCommentToLayerElement>
+          <layerMoniker Id="4d02effb-87a8-4d7d-b459-ecd666af8ce6" />
+        </linkFromCommentToLayerElement>
+      </layerElements>
+    </comment>
+    <comment Id="d649fbe0-a066-469c-ba0d-b8a680eb1c46" name="Comment2">
+      <body>Actuator domain objects:
+
+	steeringWheel.SetAngle(90)
+	frontLed.TurnOn()</body>
+      <layerElements>
+        <linkFromCommentToLayerElement>
+          <layerMoniker Id="fa73f366-0342-44a4-82af-9889db56b3ac" />
+        </linkFromCommentToLayerElement>
+      </layerElements>
+    </comment>
+    <comment Id="6383fa1e-7447-42e0-9726-8c6b126c4ba7" name="Comment3">
+      <body>Generates structured message packages out of commands:
+
+	|0000|0001|0000|1110|</body>
+      <layerElements>
+        <linkFromCommentToLayerElement>
+          <layerMoniker Id="786fcb84-bf51-4f62-a0dc-997d357ecb33" />
+        </linkFromCommentToLayerElement>
+      </layerElements>
+    </comment>
+    <comment Id="694f863e-e172-40cf-bc7d-d9dbae44bbbf" name="Comment4">
+      <body>Generates series of pulses out of message data:
+
+__||||___||||||||______||_____||||||__</body>
+      <layerElements>
+        <linkFromCommentToLayerElement>
+          <layerMoniker Id="4b1a370f-4b41-4f2d-98db-b0ef1d89199e" />
+        </linkFromCommentToLayerElement>
+      </layerElements>
+    </comment>
+    <comment Id="43af1c6b-588a-4708-9e5e-75fbf5276f11" name="Comment5">
+      <body>Abstraction layer to issue commands. It's interface mimics the real remote control:
+
+remoteControl.Execute(Output.Blue, Speed.Forward7)</body>
+      <layerElements>
+        <linkFromCommentToLayerElement>
+          <layerMoniker Id="118df52e-9591-4196-9464-7f93a6ff4ad3" />
+        </linkFromCommentToLayerElement>
+      </layerElements>
+    </comment>
+    <comment Id="bf3ef18e-b657-4f92-b18c-0fe83fd94774" name="Comment6">
+      <body>Allows to time-decouple issuing of a command and it's actual execution (encoding, transmission, etc.).
+Can be used for buffering or async execution</body>
+      <layerElements>
+        <linkFromCommentToLayerElement>
+          <layerMoniker Id="a3423ae2-efef-4b1e-b502-7060a16aa1a9" />
+        </linkFromCommentToLayerElement>
+      </layerElements>
+    </comment>
+  </comments>
   <layers>
     <layer Id="a3423ae2-efef-4b1e-b502-7060a16aa1a9" name="Command Processor">
       <dependencyToLayers>

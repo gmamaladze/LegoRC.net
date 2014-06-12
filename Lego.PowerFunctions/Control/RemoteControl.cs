@@ -16,11 +16,11 @@ namespace Gma.Netmf.Hardware.Lego.PowerFunctions.Control
         private readonly CommandProcessor m_CommandProcessor;
 
         public RemoteControl(Transmitter transmitter, Channel channel)
-            : this(new CommandProcessor(transmitter, channel), true)
+            : this(new CommandProcessor(transmitter, channel))
         {
         }
 
-        public RemoteControl(CommandProcessor commandProcessor, bool disposeCommandProcessor)
+        public RemoteControl(CommandProcessor commandProcessor)
         {
             m_CommandProcessor = commandProcessor;
         }

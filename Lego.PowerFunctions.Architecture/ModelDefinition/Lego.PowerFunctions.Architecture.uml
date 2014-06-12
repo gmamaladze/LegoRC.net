@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
   dslVersion="1.0.0.0"
   Id="d8f7d084-f0c2-47cc-a82b-ccdcf5cc9bf5"
   name="Lego.PowerFunctions.Architecture" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
@@ -16,29 +16,94 @@
         Id="532ea607-fb19-44b8-8502-3351b05452be"
         name="StandardProfileL3" />
     </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="e399374d-1aef-4ea4-a2cc-b7280689aa3b">
+      <profileInstance
+        Id="c16d0442-93da-470d-9024-5c6a8141d86d"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
   </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="8a2854a8-71d3-4d9c-b7d4-56ac22db555f"
+        LastKnownName="Gma"
+        LastKnownLocation="Package_1501.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="bf4779da-2b17-41fe-b4f5-f3c1437ab7a3"
+        LastKnownName="System"
+        LastKnownLocation="Package9_1501.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="8bead8a4-55f6-4127-ae05-999e540c56d0"
+        LastKnownName="Microsoft"
+        LastKnownLocation="Package10_1501.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="61a146a7-c7a8-4cf5-88f1-6a9d275345f4"
+        LastKnownName="Actuators"
+        LastKnownLocation="Package_1508.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="c9368d3e-0557-4da9-b300-299ed19ede5d"
+        name="Interface1"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="9cb9456c-048a-4d4e-909a-d7dde8a27554"
+        LastKnownName="Commands"
+        LastKnownLocation="Package_1527.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="f6e154ea-9cc2-4442-ab79-92e96721829d"
+        LastKnownName="Control"
+        LastKnownLocation="Package1_1527.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="802265c6-1d74-4dee-bbd6-99fd6feb16cb"
+        LastKnownName="Communication"
+        LastKnownLocation="Package_1528.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="59ddccca-5c89-4058-967a-0f3d05cc3486"
+        LastKnownName="Package1"
+        LastKnownLocation="Package_1530.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="10150456-de77-4fd9-9a8e-3800bf1b7370"
+        LastKnownName="Communication"
+        LastKnownLocation="Package_1531.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
   <primitiveType
     Id="220a3521-e091-4221-bae9-3ef9018e845c"
     name="Integer"
     isAbstract="false"
-    isTemplate="false"
     isLeaf="false" />
   <primitiveType
     Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
     name="Boolean"
     isAbstract="false"
-    isTemplate="false"
     isLeaf="false" />
   <primitiveType
     Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
     name="String"
     isAbstract="false"
-    isTemplate="false"
     isLeaf="false" />
   <primitiveType
     Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
     name="UnlimitedNatural"
     isAbstract="false"
-    isTemplate="false"
     isLeaf="false" />
 </modelStoreModel>

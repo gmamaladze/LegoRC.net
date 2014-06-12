@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="b818088d-4c47-4cca-8c0d-608fe6c38cbb"
+  name="Commands"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="d4f68dd2-af88-4b2e-95d8-abf43d552556"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Commands"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <enumeration
+        Id="ab14ed5a-23ea-4502-9cac-5d37614d5877"
+        name="CommandType"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="eef67c72-f5c9-46a3-b31a-b7520e5b2196"
+            handle="viewcode://./CodeSchema_Enum?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Commands Type%3DCommandType"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="d45456a1-1867-43b3-b0f1-c06ed7ecb513"
+            name="enum"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b8b98441-d37a-4977-9e78-6225a415fbfe">
+                <propertyInstance
+                  Id="ca0424e9-7a4b-4a6b-915c-0b5930233d8e"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="aa1148fb-cf7f-4c95-9744-b5f862a7e54e">
+                <propertyInstance
+                  Id="09dbe6c3-a028-4e29-bd99-fb5345c877df"
+                  name="BaseType"
+                  value="int" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3246c90c-6e5a-4b57-8377-61f54c15e748">
+                <propertyInstance
+                  Id="f3cb973a-ad57-47a9-a89b-d43d162a3e65"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </enumeration>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

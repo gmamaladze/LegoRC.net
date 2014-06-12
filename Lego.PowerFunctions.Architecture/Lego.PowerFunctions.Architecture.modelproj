@@ -22,7 +22,71 @@
   </PropertyGroup>
   <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
   <ItemGroup>
+    <Content Include="ModelDefinition\Package10_1501.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package11_1501.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package12_1501.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package1_1501.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package1_1527.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package2_1501.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package3_1501.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package4_1501.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package5_1501.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package6_1501.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package7_1501.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package8_1501.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package9_1501.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1501.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1508.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1527.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1528.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1530.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1531.uml">
+      <SubType>Content</SubType>
+    </Content>
     <Folder Include="ModelDefinition\" />
+    <Content Include="ClassDiagram.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ClassDiagram.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>ClassDiagram.classdiagram</DependentUpon>
+    </Content>
     <Content Include="ModelDefinition\Lego.PowerFunctions.Architecture.uml">
       <SubType>Content</SubType>
     </Content>

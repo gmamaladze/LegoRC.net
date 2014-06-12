@@ -1,0 +1,2467 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="61a146a7-c7a8-4cf5-88f1-6a9d275345f4"
+  name="Actuators" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="03d240c3-8eef-4d6a-9802-cdf59ca02011"
+        name="Servo"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="98c7c9d9-d435-4f20-a77d-d0d3afa1cebb"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Actuators Type%3DServo"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="2a0d45b4-5815-4b72-bbce-1be0f90278bd"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a5893737-e258-4c0d-95dd-d2e534d1fd32">
+                <propertyInstance
+                  Id="cc03a4bd-9365-4326-b5d1-3afcc3ad96f7"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e81a7a15-98db-4bd5-96a0-47f6ae04f931">
+                <propertyInstance
+                  Id="78edaf97-2fe9-4913-b478-e5e25985df8c"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="565ff574-a71d-4beb-92d3-ff4a13c8df2a">
+                <propertyInstance
+                  Id="d70fd736-ed28-4b03-9e5c-f16f7792a6f6"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="260332b4-d05a-4259-8da3-64c86571172f">
+                <propertyInstance
+                  Id="dafaf5a5-ca87-45d8-801b-9292e606286a"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0b7e8c3a-9c3c-458e-b9f1-32e2eba18d90">
+                <propertyInstance
+                  Id="d70595f3-4cff-465e-bdae-e4328df2e8b6"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="18345ec4-1b09-4564-a4c2-9fbf83db8ac1"
+            isSubstitutable="false">
+            <classMoniker
+              Id="51c065cc-7cd8-47ec-93cf-02fd3bd1c4a5"
+              LastKnownName="Actuator"
+              LastKnownLocation="Package_1508.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="9562869b-cc64-4e4f-8544-4965c2441f39"
+            name="Servo"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="93438660-227e-4432-a400-e5400f92add4"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Actuators Type%3DServo Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Actuators Type%3DConnector)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8280261e-5585-4560-9a97-aea9e406fb60"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1e8c22a0-9ce1-4cec-ba71-bbb747c371cd">
+                    <propertyInstance
+                      Id="c4208062-9333-452a-955b-feb2091d5857"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="984c7c1c-df73-4eb3-8d11-54442eea7a25">
+                    <propertyInstance
+                      Id="d8243405-2180-450f-9922-f02e4452c186"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f368b740-5031-4c51-a689-5725d5cd8356">
+                    <propertyInstance
+                      Id="8e39563e-2bbe-4e85-a097-902f4b00f35e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f1bea7d6-e637-48eb-b54a-d71d2dd1d263">
+                    <propertyInstance
+                      Id="705c482e-ceb8-44dc-b709-a2685e796bde"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eb7a2fe0-e3d7-46b5-9658-990b71c56200">
+                    <propertyInstance
+                      Id="55d135ac-3163-448f-8f8c-d7539f033e0f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="68711e5f-b18e-4728-bcea-d74073c337f5">
+                    <propertyInstance
+                      Id="2a618579-ae73-411d-a5ed-6339dfe21a49"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="048c60e6-0901-46a6-883e-a19ec572926b"
+                  name="connector"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="b8d8fdb7-1f0b-4595-a399-180adb6b3780"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Actuators Type%3DServo Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Actuators Type%3DConnector)]) ParameterIdentifier%3Dconnector"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="35341103-588d-478c-b194-2745760d7e41"
+                      LastKnownName="Connector"
+                      LastKnownLocation="Package_1508.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="0685ebff-9de9-42c1-afdd-5eefe9150f84"
+            name="SetAngle180"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="8d506369-5ad2-49b1-9f5a-29f844627b65"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Actuators Type%3DServo Member%3D(Name%3DSetAngle180 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FMicrosoft .NET Micro Framework%2Fv4.2%2FAssemblies%2Fle%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="26f66e23-7e30-4ae7-b31f-1dba03b3d47d"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="10904350-8b40-47ac-8e4c-71333bac4587">
+                    <propertyInstance
+                      Id="b7071cf2-29bf-44a6-b2b9-dac3a26df206"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1a4e1ddb-7fed-424d-979a-d6e887ec01a0">
+                    <propertyInstance
+                      Id="836d21e4-1f79-4353-abe4-18feaeea8219"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="db1d2bc5-0c43-4df3-a5bb-e82e8a25986b">
+                    <propertyInstance
+                      Id="24cbb842-d734-405a-8f6a-949a3fdcd497"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="84b721dd-172c-4838-824b-11ed1a518038">
+                    <propertyInstance
+                      Id="4807021a-4656-4ca4-8ee4-fbe168659b24"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a3109499-3702-4d17-85e1-623b559a1cd0">
+                    <propertyInstance
+                      Id="2822101c-6404-4a13-a55b-8c0d2536ca9a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b964f366-c43c-4a7e-b0f5-ea4f62b84a94">
+                    <propertyInstance
+                      Id="98880ddc-eba1-4e65-8064-43abde7e44ad"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="64dfb463-0f2d-43fc-971c-3f7145063731"
+                  name="angle"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="324e9fa2-e49d-4964-8e0e-39c2529e77a3"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Actuators Type%3DServo Member%3D(Name%3DSetAngle180 OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FMicrosoft .NET Micro Framework%2Fv4.2%2FAssemblies%2Fle%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dangle"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="Lego.PowerFunctions.Architecture.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="97d79e3e-77a8-4a50-aaaa-25f7139a1b4f"
+            name="Center"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="2cf0b568-382e-4adb-80bd-43c02f77a2d5"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Actuators Type%3DServo Member%3DCenter"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="55cdb2ef-7d05-4058-a1a3-0402aa405e38"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c17f15c3-569c-4607-ab38-7654f6d7ad11">
+                    <propertyInstance
+                      Id="c1169c5a-69ca-4568-aecf-abd131b550d1"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d8f24dcd-3e25-4627-9576-c9aab442abe2">
+                    <propertyInstance
+                      Id="49727eaa-81e1-48ff-86cd-68e2a3859b39"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fe315aca-9fe4-4cae-85ff-c11aa7c9cd4f">
+                    <propertyInstance
+                      Id="04e1aa45-2fcf-41c4-99b1-a8d123e89530"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4e32964b-bc52-41e3-8c84-29d69ca07fae">
+                    <propertyInstance
+                      Id="09ac19c9-4ecc-4d61-a018-d7846f9700a1"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="876c2ec2-07d5-4a31-89e6-16165b712e22">
+                    <propertyInstance
+                      Id="dfd87cad-261e-4512-85b8-6637fac06588"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9df737a6-692f-4067-91a1-3af9e3ef757c">
+                    <propertyInstance
+                      Id="399a94d7-f700-4f3c-bc6e-946e6f8f4cb3"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="4284b242-0164-473f-bed3-7b9898b3cb99"
+        name="Motor"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="5aa19edd-4e7f-43fd-aafd-0920acc235c8"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Actuators Type%3DMotor"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="a9acf98f-35d9-4947-8521-fc4171d7d3aa"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f97eab43-9c1d-4237-8dc0-3c1f38a7a2a7">
+                <propertyInstance
+                  Id="00667e1b-d1a0-4661-8de7-2d7c6eda1794"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d5dfe117-18ea-4be4-962f-1e901e019880">
+                <propertyInstance
+                  Id="3e055b04-2efe-49f0-a59b-ab8828500601"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bd06932f-6010-4ae4-babd-41888c2cc10a">
+                <propertyInstance
+                  Id="5669ea4f-ad20-4563-8cc6-d4e2efc7be0e"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="15d9293d-f2be-4ecb-98d3-3647be35d8ad">
+                <propertyInstance
+                  Id="ea9b6336-3cf3-4576-bf7d-a69bfdbb54ae"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="137a3296-b8bd-4fa4-84e5-f21b2debe6f6">
+                <propertyInstance
+                  Id="5e645543-d0be-425a-b5d3-b33c8a357839"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="1c64dd00-7070-4095-b499-7c13a972fadd"
+            isSubstitutable="false">
+            <classMoniker
+              Id="51c065cc-7cd8-47ec-93cf-02fd3bd1c4a5"
+              LastKnownName="Actuator"
+              LastKnownLocation="Package_1508.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="66ac3034-0544-49bb-b210-41432a546606"
+            name="Motor"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="6abaf139-99ec-4af5-bad1-33ccc61ca794"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Actuators Type%3DMotor Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Actuators Type%3DConnector)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2372b7fe-d94e-4b31-95d2-0e401afc5f4b"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="247d3914-1e4c-4c82-a7c5-746d0da73934">
+                    <propertyInstance
+                      Id="66764548-a161-494d-bb75-077f797d70cb"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ef06c0b8-3d94-4f3d-a530-55c6e0fbf95d">
+                    <propertyInstance
+                      Id="922f82f8-bf3f-4602-b91f-fb401ff454d8"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9aa337d0-cb7e-4eb9-8fa8-03c451262040">
+                    <propertyInstance
+                      Id="445bea10-7eca-4d8c-9c47-657e35e775ff"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="20f18d64-3658-485a-bf68-6571d1a80326">
+                    <propertyInstance
+                      Id="7dd07bc1-26e7-47b3-ab27-f07f935c9d2f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9bd85000-6361-4723-9c2c-d5ebdd7ceaf1">
+                    <propertyInstance
+                      Id="b175e19d-553f-4b6f-9dad-7c0eec3d239f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8493b3c1-a2d0-4d57-a934-f3b9117a0a6e">
+                    <propertyInstance
+                      Id="ebf6383a-1b82-4454-b112-539d0c6b3b34"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="d35199e9-9638-43c3-be51-397bb6ef1e04"
+                  name="connector"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="34af9d88-37de-4afd-8175-df3dd2280e05"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Actuators Type%3DMotor Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Actuators Type%3DConnector)]) ParameterIdentifier%3Dconnector"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="35341103-588d-478c-b194-2745760d7e41"
+                      LastKnownName="Connector"
+                      LastKnownLocation="Package_1508.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="b7add94d-fd21-44c7-9257-6f17a1dd429e"
+            name="SetSpeed"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="cbc1113c-1017-4f9b-9579-3c6192d5338d"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Actuators Type%3DMotor Member%3D(Name%3DSetSpeed OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FMicrosoft .NET Micro Framework%2Fv4.2%2FAssemblies%2Fle%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="cf97c3ee-4ce7-4fac-9c81-c5c003fd6944"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f855e7dd-4dfd-48a0-b86f-5979d193bb78">
+                    <propertyInstance
+                      Id="bc3efb8d-b389-4253-a07e-9e200c07328e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f4e640d7-d8c1-4e39-a48e-dcf2400d8e19">
+                    <propertyInstance
+                      Id="b764d4b0-6511-4c9a-a592-6a4c73c11571"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a08f6456-6344-47c7-bdc5-3c36170ec9dc">
+                    <propertyInstance
+                      Id="c55df8b2-2969-4640-807e-bfc24fe6bb99"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="169ff611-2a27-496d-90e0-75f24642e911">
+                    <propertyInstance
+                      Id="3cc6531e-589c-455f-b595-96218a3de321"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2aef217f-7460-4116-bed2-2e74b4e3667b">
+                    <propertyInstance
+                      Id="221dab51-4d01-40d4-82f3-b0e585d51a80"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="653fea08-e882-48be-8d7a-01a1da03ecbb">
+                    <propertyInstance
+                      Id="239d2a2e-45d4-499b-aa91-7ac48a84e18a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="1eb2ff09-92f5-4b03-95d6-4114813adc6f"
+                  name="percent"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="14af1e0f-f2bb-4935-a996-2a7ab545dc99"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Actuators Type%3DMotor Member%3D(Name%3DSetSpeed OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FMicrosoft .NET Micro Framework%2Fv4.2%2FAssemblies%2Fle%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dpercent"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="Lego.PowerFunctions.Architecture.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="9df5e121-bfa4-4bff-9d52-126597d7c4ff"
+            name="Brake"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="6e7b23da-4d9d-40b1-9c95-b5342a19acca"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Actuators Type%3DMotor Member%3DBrake"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b562b711-ad8d-4a9e-8449-91ae0f2f8cef"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6ef0a502-48bd-4023-811d-3f39ba3d5cff">
+                    <propertyInstance
+                      Id="59fcf8c2-9374-4242-a357-2e3781dabcd7"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="98b869c2-4672-4b88-90d0-10b7e409e28f">
+                    <propertyInstance
+                      Id="3e692687-a938-4796-80f7-1f4b0ce4d9d0"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b4e4d964-6b93-4d5a-9470-dbab5059bee4">
+                    <propertyInstance
+                      Id="9d606879-7ab9-4f1f-b1c1-0f7714ea403f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="06270cbf-a88c-4df1-b520-433e34b82095">
+                    <propertyInstance
+                      Id="9f58c606-470f-4e81-a3a4-325a6a72af0e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="39427538-1162-40e4-8af7-9869d2dac061">
+                    <propertyInstance
+                      Id="e6842f5d-dfc5-4aac-b321-8197836bdfe8"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4239b4c6-261d-4294-bb66-efb624cad9d8">
+                    <propertyInstance
+                      Id="2a22dd11-1d6e-4df9-a621-410e89abfd07"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="2d0acc29-c967-4858-b7e5-e16371a8a423"
+            name="DecSpeed"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="33b6cc9e-317b-4214-8d8f-a0c9d7225043"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Actuators Type%3DMotor Member%3DDecSpeed"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ca00e91e-7507-4e7b-99ae-8fbc805a9570"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7ef21375-cdb9-4660-b181-ce279305f7d5">
+                    <propertyInstance
+                      Id="8346fb68-8183-449c-88d3-5fdc22f165c6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="45d79e7f-3705-49e9-9cee-d065ddeb1866">
+                    <propertyInstance
+                      Id="5b832db4-d8fa-407c-beae-680e505adfbf"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f9f5c8fa-afa7-4486-a82d-10bdaf47b9b1">
+                    <propertyInstance
+                      Id="fad86c21-1c14-40c3-bfdc-25f484d4d90d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1c03cf04-7f23-44be-b6d7-6817f3377a13">
+                    <propertyInstance
+                      Id="5657fdb5-2f5b-4b03-9f8a-6c6aee1f41bf"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e0a9e81b-4b5c-4edc-8e06-d3e24917a930">
+                    <propertyInstance
+                      Id="6a0306b1-f230-4fa4-827c-cd235f085cae"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a61e73f1-821b-4b19-8c35-a8423e990403">
+                    <propertyInstance
+                      Id="55a95ec7-83a3-477b-9fc4-87e08aed6f8d"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="3165edd4-ed77-4da5-a975-4775eea39dd4"
+            name="IncSpeed"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="cf561444-e227-4283-949f-3d2ae5c6bdd3"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Actuators Type%3DMotor Member%3DIncSpeed"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="157db5df-3cb9-4b74-84a9-9ba60e990d17"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8e84978e-b850-45ba-b488-a7486a783958">
+                    <propertyInstance
+                      Id="518ebec3-ea2f-47b4-b89e-8d474e0762ea"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="99b12abb-3c44-4271-8404-3be395fc72ff">
+                    <propertyInstance
+                      Id="fc747517-5cfc-4cfe-8a28-8ff17d12f850"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="38cb13de-f579-4218-b535-74ae027edbaa">
+                    <propertyInstance
+                      Id="e68ebbca-6bc6-4c85-9f01-135079364886"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="44d487c2-db4c-4917-9bb5-879ba8b5aba4">
+                    <propertyInstance
+                      Id="f51d29dd-337f-4f2d-85b6-3cb4ce8cfe91"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8df8c3a0-3d36-4380-8633-8c8d9108e125">
+                    <propertyInstance
+                      Id="5bc0778a-86b5-4e0d-93e9-30bc67740e3e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c8aa28d4-7562-4092-a70d-2b3124a94998">
+                    <propertyInstance
+                      Id="9e406737-0db9-40a1-b2c9-af400ab8414d"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="51c065cc-7cd8-47ec-93cf-02fd3bd1c4a5"
+        name="Actuator"
+        isAbstract="true"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="51e96ebe-8905-441b-ab15-694c415128f0"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Actuators Type%3DActuator"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="23bc97c9-ea79-4553-8bf9-f3376a5bda42"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="969a8ccf-e11b-4101-a581-e7730624be50">
+                <propertyInstance
+                  Id="81fb965c-2f61-4c72-87f3-133e9dbe9cde"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="557ab640-4811-433c-8b42-9a53273ad044">
+                <propertyInstance
+                  Id="8d4bc788-da82-442e-94ec-5ab55c3b254c"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f05348cb-d89d-45b6-9e03-113aa9d182f7">
+                <propertyInstance
+                  Id="b722f8be-529f-4941-98bc-171bf9a76ec7"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2e0e6e17-c6ff-4ea4-a39c-8eac05cab306">
+                <propertyInstance
+                  Id="3a833d48-cb08-4684-bfa1-f6c5f8abb7a6"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8a7d395c-c406-4f1d-bd76-c253ea826dba">
+                <propertyInstance
+                  Id="4f9c233f-ebb8-4c0a-b6c6-802a4c3628c1"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="e744e331-e2bf-494b-9e7b-d0c5f820913f"
+            isDerived="false"
+            sourceEndRoleName=""
+            targetEndRoleName=""
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="35341103-588d-478c-b194-2745760d7e41"
+              LastKnownName="Connector"
+              LastKnownLocation="Package_1508.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="af776cf6-c3fb-4e8f-a573-642446c39bb3"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="e3c64857-5403-4054-9789-dd75768d3797"
+                      name="Lower"
+                      value="n" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="3f624cbc-8956-4705-951f-089214c96fef"
+                      name="Upper"
+                      value="n" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c7439406-b31a-41a6-8b0b-d8c88ad2dcc8"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="64be0032-5bab-43b4-92b3-4d67e6d4b532"
+            name="Output"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="f88c38cd-2b42-4d58-b8f0-b8721fc073cf"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Actuators Type%3DActuator Member%3DOutput"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="175284a8-c243-4fff-89c6-ffe7198039b2"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7ce89d19-643a-49ba-8f79-cf139091c3b6">
+                    <propertyInstance
+                      Id="f7c0ac7e-a932-4649-90cb-02c4386e3601"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cd5b676c-9402-4776-a064-6dd21a9824ac">
+                    <propertyInstance
+                      Id="7673f8df-93d9-4792-8e67-b2c33759d8dd"
+                      name="Get"
+                      value="protected" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1a5cbce3-9723-4aeb-9fed-cab6f684561a">
+                    <propertyInstance
+                      Id="b887a454-214c-4246-980b-60689934a28d"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="252c5f60-6742-4743-a553-0002462e524a">
+                    <propertyInstance
+                      Id="64d7f83a-a1df-4e66-ad49-ea71ac2076cc"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bfbf8461-8e9c-4a3f-ab2e-6345d51335e3">
+                    <propertyInstance
+                      Id="4cdfb548-a489-4f85-a0df-c072794a11f9"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9c612a99-ab64-4205-87f9-0ab8177f0f1d">
+                    <propertyInstance
+                      Id="5766fd94-7a0d-4177-ae4f-bd08e37ae6d9"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="86151490-e5f3-475d-9496-05b3a50f4b96">
+                    <propertyInstance
+                      Id="f0d5f447-be9b-458a-9a0a-b4e71bad9b90"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <enumerationMoniker
+                Id="d671d809-2e86-40da-950a-fb9d99dfd31f"
+                LastKnownName="Output"
+                LastKnownLocation="Package6_1501.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="26925605-e741-42a5-b3df-30053442595f"
+            name="RemoteControl"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="ca314894-0289-4a81-97e0-0b945c2cedb1"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Actuators Type%3DActuator Member%3DRemoteControl"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ec2b4d0f-eca4-42c3-8068-7e008fc120c4"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="60a7139c-8f09-4352-9f18-9b111aa21d04">
+                    <propertyInstance
+                      Id="6500a522-fcc7-485f-9632-c9c1edb004bb"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="42fd149b-975d-40c2-be3b-ab34f2ac4856">
+                    <propertyInstance
+                      Id="893be0dd-be3a-4b41-b9ed-3892bf36d43a"
+                      name="Get"
+                      value="protected" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e965c520-07e5-4698-b99a-5d04a1855a96">
+                    <propertyInstance
+                      Id="22c8e876-eb26-4e80-80ad-b2573b22e2e7"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="be1f31c3-7668-4206-a631-eb473b79d3bc">
+                    <propertyInstance
+                      Id="a6729f2e-8c54-4e1f-9139-62628082ac9b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ee36c2c5-9720-49a2-998f-063fa2fedc8d">
+                    <propertyInstance
+                      Id="248afb78-a8fc-4ec1-bb22-2bfaf074ff9f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3790503c-961d-4fb8-b0e6-80d3c339bb98">
+                    <propertyInstance
+                      Id="752673ed-3e3e-468b-9651-9b720c674de9"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1ba2f804-ee6c-4455-84ad-777f5f8b7264">
+                    <propertyInstance
+                      Id="7cad0d81-494c-4c3d-aba6-984eea32ba85"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="7803b401-162f-4071-8bde-65c0dbf57504"
+                LastKnownName="RemoteControl"
+                LastKnownLocation="Package1_1527.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="1b139568-e474-4f89-a97b-74b8295b72ba"
+            name="m_Output"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="135deb02-9431-4d5d-823f-b79b69c31f22"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Actuators Type%3DActuator Member%3Dm_Output"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9ecc40d3-54a7-458d-af73-f0d455701ed0"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ac72ddbe-d910-4b42-9923-97e65e328aa1">
+                    <propertyInstance
+                      Id="0e698e24-26c9-42bf-b9d7-02e6a44078a1"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6ca2754c-4a7e-4151-9072-f31647157157">
+                    <propertyInstance
+                      Id="4a63ab62-ebe9-4961-94e8-d567df2648e8"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a71e9141-23c1-499d-8bd9-6a4548985775">
+                    <propertyInstance
+                      Id="2f59d8f3-3b92-4963-8e4b-0312443a8867"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1f0116f1-2a0c-4569-a6ee-a85da251e158">
+                    <propertyInstance
+                      Id="325ac885-c00e-4eac-a2d6-8225d32575ac"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cfbbd4b1-3b2f-413a-8224-7891096f4c7b">
+                    <propertyInstance
+                      Id="5812010f-d160-41d8-96d9-b0ac1233a3f2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <enumerationMoniker
+                Id="d671d809-2e86-40da-950a-fb9d99dfd31f"
+                LastKnownName="Output"
+                LastKnownLocation="Package6_1501.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="ee981517-819f-48da-9bfe-c71c27c2fc03"
+            name="m_RemoteControl"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="628604f3-4e51-4c1d-a418-68ff687bae81"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Actuators Type%3DActuator Member%3Dm_RemoteControl"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f7271909-e577-4b5a-bcb7-4b4ba3bbf520"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7657a7ba-13b0-4809-8e7f-223c5778756e">
+                    <propertyInstance
+                      Id="3d302c37-585d-49ca-8671-f3f4a0f34489"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0e68dc46-1424-4f7e-bd55-af4b97f5d9ac">
+                    <propertyInstance
+                      Id="f121bc39-5edc-4c47-bf59-1650e2dda3e7"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="02358736-4c55-4400-b854-195dfc38714a">
+                    <propertyInstance
+                      Id="fc74325b-772d-4282-981b-93e1988a7f58"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2dc4666b-0b06-4c5f-a556-0fb64a39027e">
+                    <propertyInstance
+                      Id="64fb4cc8-ab90-4b0e-beca-3c55e6a3854f"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="895265d1-bf1c-4479-8dc2-6e33e99ce175">
+                    <propertyInstance
+                      Id="fc5cd712-cacb-4cb9-b38a-053a533a1e7f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="7803b401-162f-4071-8bde-65c0dbf57504"
+                LastKnownName="RemoteControl"
+                LastKnownLocation="Package1_1527.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="b945333e-df13-4ebc-b832-0c41ac9dcdea"
+            name="Actuator"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="387b9642-2672-4085-8b8d-c4b62efb6294"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Actuators Type%3DActuator Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Actuators Type%3DConnector)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="bba748c0-e518-488d-b84d-30fa89bb8587"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7842e83d-574c-4b0c-8e5b-7610694147e2">
+                    <propertyInstance
+                      Id="030f5c15-ba82-4150-a849-bab4efa30b95"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="375ae39b-34c3-4b6c-8819-562d8b0ae1e5">
+                    <propertyInstance
+                      Id="ce9fdf4a-b32b-4c27-aff6-ac259cb7d51b"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f0d69a49-7b1c-4328-8c09-ef2b2b333f9c">
+                    <propertyInstance
+                      Id="2746b9de-1f5e-4896-bb5e-25fe5c29bed1"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a26147e4-0de8-4f44-af0d-d219abd113be">
+                    <propertyInstance
+                      Id="93458794-8fc1-4cc9-98cc-75873e6938b6"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="989009ea-8c22-4c36-b212-8876289b435c">
+                    <propertyInstance
+                      Id="3745efe1-c13e-4ec6-8046-52e5036a6397"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a3d0311f-7dc8-4e53-bba0-a0694ba5ad59">
+                    <propertyInstance
+                      Id="42c8c1d7-91af-446b-86c2-11fd803c88eb"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="1215b676-04ab-4597-bb78-b33f6f8ad3ac"
+                  name="connector"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="6697ba4f-f5ac-4840-a8fc-4007c09224bf"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Actuators Type%3DActuator Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Actuators Type%3DConnector)]) ParameterIdentifier%3Dconnector"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="35341103-588d-478c-b194-2745760d7e41"
+                      LastKnownName="Connector"
+                      LastKnownLocation="Package_1508.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="35341103-588d-478c-b194-2745760d7e41"
+        name="Connector"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="04f1c7ab-04a5-4130-8c35-7427e3840507"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Actuators Type%3DConnector"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="48c39912-0997-4fac-9b75-b9dab0d0ded5"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="052741ee-35e2-4413-a489-83d321020109">
+                <propertyInstance
+                  Id="654603cd-b00a-4ebb-ba0d-5ca1ade3d31f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="380add84-5635-4d44-a7c3-df6d2d85a056">
+                <propertyInstance
+                  Id="2384fe32-038a-42a0-a863-054b4c3d54de"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6e75ebb6-0acb-4c80-8c53-959dbd2397b9">
+                <propertyInstance
+                  Id="5f97859f-6d94-4ec1-89f2-a71faf9cc6c3"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bae4b776-1bc1-44a5-97dd-d97cb427bd81">
+                <propertyInstance
+                  Id="c7ef8e42-ec87-45cb-9433-47937af26460"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8aef04c5-1467-4db3-a386-f0d2412af214">
+                <propertyInstance
+                  Id="d1b48e0f-7674-4189-8df9-5c934ab59abd"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="7047ecbb-d6a2-49da-8d56-def1ee96fc8b"
+            isDerived="false"
+            sourceEndRoleName="Connector"
+            targetEndRoleName="Output"
+            isLeaf="false"
+            isAbstract="false">
+            <enumerationMoniker
+              Id="d671d809-2e86-40da-950a-fb9d99dfd31f"
+              LastKnownName="Output"
+              LastKnownLocation="Package6_1501.uml" />
+            <description>Property Output references type Output.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c4aed6a2-2514-47c4-ac73-ee7d38c12f29"
+                  name="Connector"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="6fb12278-924c-4660-bcf4-e9529885831a"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="ade7e39f-7276-4bf9-8d72-ddebe315df74"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8acd9d9a-04ff-40df-ba7c-e16b68384bef"
+                  name="Output"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="95ecd448-7ac8-470c-a56a-d64f1d8cb8da"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="283ae2fa-4f67-4d39-82a9-e778ce0b6ccd"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="ecfe56b2-7c72-4cfe-8356-b3f060f72bc2"
+            isDerived="false"
+            sourceEndRoleName=""
+            targetEndRoleName=""
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="7803b401-162f-4071-8bde-65c0dbf57504"
+              LastKnownName="RemoteControl"
+              LastKnownLocation="Package1_1527.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c8accb18-e317-400a-9a37-ffc7a633566f"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="64a748a3-22f2-44dc-9c38-6a4afed80042"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="b2be7bae-f3d0-46a3-91ff-fade9d97f7d9"
+            name="Output"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="77d770d8-fb30-4c7a-82eb-68f389e465e8"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Actuators Type%3DConnector Member%3DOutput"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e8ff365f-cdd9-4e7b-b2ab-1cdb6d381e1b"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="02380063-1ce3-467f-8b23-015654d8fdc5">
+                    <propertyInstance
+                      Id="4a862f50-ebde-4a01-9211-8a268c3e2c39"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7640431d-3657-4df5-960a-8a45138b1824">
+                    <propertyInstance
+                      Id="360c3b7a-2dc9-4e09-b1ea-7e1f8ad33daf"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="55dfa0cc-f7a1-4555-bc50-34db79dc6a18">
+                    <propertyInstance
+                      Id="0075abcd-7ac6-47d4-b3cb-7baf6873c347"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6e7a0a6d-c13f-4e1f-95d5-bdcecdd59ce6">
+                    <propertyInstance
+                      Id="2652df33-0457-415b-b673-7a9e9aff1053"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4af83578-3cfc-46fa-b39f-ccae960a171b">
+                    <propertyInstance
+                      Id="4743bf95-e7c3-4a98-ad2a-9aa20a986b37"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="01099f5d-dc19-4f01-bb5f-6a4f5c0a0014">
+                    <propertyInstance
+                      Id="09c5bd53-5a31-4b78-b32d-78ea380fbe26"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f6752d70-760a-4597-a3e0-a5e71659a000">
+                    <propertyInstance
+                      Id="a7f719c5-b22c-47cf-a81b-6b86001249d0"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <enumerationMoniker
+                Id="d671d809-2e86-40da-950a-fb9d99dfd31f"
+                LastKnownName="Output"
+                LastKnownLocation="Package6_1501.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="e3404523-2ff2-44ab-a577-b5b6ec1696dd"
+            name="RemoteControl"
+            visibility="Package"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="cb04dd16-ef78-4acd-bff4-a1ea27f3b3fd"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Actuators Type%3DConnector Member%3DRemoteControl"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="29779333-b81e-4598-bd24-7e5c9acd7c9e"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dc627f28-d415-4448-a497-c406d14ecff0">
+                    <propertyInstance
+                      Id="0f5e3c52-5ab4-444c-b5d7-26a248e74ffe"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ac6f81a2-ce17-4f72-81f6-c4fbf735d1bf">
+                    <propertyInstance
+                      Id="41ca3900-6b8d-4a7c-92d9-2147c65dc3ba"
+                      name="Get"
+                      value="package" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="282e08cd-6e91-4c79-8c04-0ea29fe87607">
+                    <propertyInstance
+                      Id="b2e30e1f-15a8-4920-bad2-112078996571"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7845efeb-7c70-46d1-b6aa-206df4f22407">
+                    <propertyInstance
+                      Id="af552f9c-085f-41ee-bf8e-ed9f63d490f4"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="11df9b71-efcc-44d1-a0fb-cc8004cca911">
+                    <propertyInstance
+                      Id="fdf4be7a-e4ab-4d12-ab30-14cf1d0bfa90"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c88a0c5f-cc4e-48a0-b299-c8239989dd14">
+                    <propertyInstance
+                      Id="29eff354-823e-4ffd-adfc-55ed180d7ee0"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a11d94c9-5546-459f-a6c5-dda921242dd8">
+                    <propertyInstance
+                      Id="1cfee7da-132f-44c8-a202-4ae0d961aab6"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="7803b401-162f-4071-8bde-65c0dbf57504"
+                LastKnownName="RemoteControl"
+                LastKnownLocation="Package1_1527.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="46305f36-35e5-4b56-8f1c-340e78b50b9e"
+            name="m_Output"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="36e76415-7e63-41f2-a894-6d891a923ed4"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Actuators Type%3DConnector Member%3Dm_Output"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="28d6edcc-4186-429c-8d6b-b4cb6f1ed6c1"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f855eaad-4285-4371-8213-6a30325f4dc0">
+                    <propertyInstance
+                      Id="8bcbf053-98da-4c8d-88b7-a406fa2d8a53"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8a26ba76-f104-45b6-8eec-fb659f816f16">
+                    <propertyInstance
+                      Id="c270540a-b329-4169-a757-067bc3dcbfdc"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="62716dde-c2c5-4928-8ce6-4a865cc9cab3">
+                    <propertyInstance
+                      Id="c3e86ab6-5ff4-4a24-bb0a-6e1d8e8ed575"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="26c39cc1-f1c5-4d65-95d0-b5d944babe26">
+                    <propertyInstance
+                      Id="7b57ea1d-271b-4d0b-868f-d3feac355390"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="df41fd98-ef36-4081-bdb1-d6a82aa10522">
+                    <propertyInstance
+                      Id="1c61bcd8-f69e-4463-8692-9b0a005d9368"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <enumerationMoniker
+                Id="d671d809-2e86-40da-950a-fb9d99dfd31f"
+                LastKnownName="Output"
+                LastKnownLocation="Package6_1501.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="ebf2530b-bbf0-4a3c-bd0b-5ffe27f41f2f"
+            name="m_RemoteControl"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="d3c1387e-990c-406d-bba5-7c8f47a2f50a"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Actuators Type%3DConnector Member%3Dm_RemoteControl"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9356678c-2fbc-4dc8-9d5a-4fe23a8718b4"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="920a37d7-46e9-4945-af99-4e7d01ab4792">
+                    <propertyInstance
+                      Id="f20c11cc-7263-4570-860d-530e97118abb"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="501f4d9b-e122-405a-af64-cfdb0828dbb0">
+                    <propertyInstance
+                      Id="452499f5-d5d9-4ee3-9d4f-cb4f8ace7564"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b7729a03-b3f9-4a21-b0c9-3f577af91ca9">
+                    <propertyInstance
+                      Id="885dbcf6-db45-4dd7-a101-2c27d861e4fc"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6e01248a-0c0f-40fc-abe5-2604a092a7b3">
+                    <propertyInstance
+                      Id="9b3cafcf-a398-4a26-affe-8fbe6b435c06"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f4ac25f2-8507-41e8-95a8-dd4053f9f25f">
+                    <propertyInstance
+                      Id="74dc8398-c120-44e0-bb51-8a0d42975f9a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="7803b401-162f-4071-8bde-65c0dbf57504"
+                LastKnownName="RemoteControl"
+                LastKnownLocation="Package1_1527.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="5ad5680d-c311-43ff-9128-b9285149a7af"
+            name="Connector"
+            visibility="Package"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="a5a025d1-85b8-4103-b00c-6391e2c13e9a"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Actuators Type%3DConnector Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DRemoteControl)%2C(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DOutput)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="11253ff3-6720-46e5-9c5a-191337b0923d"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1c4a49c0-471f-4d5d-94c5-00195aa11e2e">
+                    <propertyInstance
+                      Id="98a4efbf-62fe-4490-97db-678ce87e26f7"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="835c868f-87b9-4233-a59f-ed54b4eb9924">
+                    <propertyInstance
+                      Id="bdbbd872-282e-415b-9641-03138ffd688c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d10c958d-48ea-4463-83fe-354f2a71bcd5">
+                    <propertyInstance
+                      Id="ae9dccad-da7e-4f41-b769-cf7ab1520c57"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="28e49d38-083b-48b9-b665-2773b2c8a5c7">
+                    <propertyInstance
+                      Id="fbbcbb66-f7c8-4e49-b163-9c953760f73c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fdaa7381-00fd-482b-9075-9a8b9b4ddc65">
+                    <propertyInstance
+                      Id="00117d1f-e682-4a91-aff1-85bfdf7e9e20"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1c03ddf3-0b4c-45bc-b164-d4fccf6468d2">
+                    <propertyInstance
+                      Id="ba170303-8c0e-47c4-ab61-fca0e41fb8f0"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="15650dcd-7a04-42f7-b8e1-3c9f50a6c2e8"
+                  name="remoteControl"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="be0525c2-5bc3-417f-9f12-6099a20f47d3"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Actuators Type%3DConnector Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DRemoteControl)%2C(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DOutput)]) ParameterIdentifier%3DremoteControl"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="7803b401-162f-4071-8bde-65c0dbf57504"
+                      LastKnownName="RemoteControl"
+                      LastKnownLocation="Package1_1527.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ba0ec10b-ad00-4191-871a-4894874bd634"
+                  name="output"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="a5f32682-e82c-4cec-8f81-44f2a612ceae"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Actuators Type%3DConnector Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DRemoteControl)%2C(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DOutput)]) ParameterIdentifier%3Doutput"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <enumerationMoniker
+                      Id="d671d809-2e86-40da-950a-fb9d99dfd31f"
+                      LastKnownName="Output"
+                      LastKnownLocation="Package6_1501.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="355684a8-fa91-4621-bce9-b73a576b2ea2"
+        name="Receiver"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="cbddde09-e594-4bd5-9e51-53331e9c2cc5"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Actuators Type%3DReceiver"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="ee120325-e31c-4815-ba67-90ba68098ec1"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7ea19047-830f-4c8a-8e1f-10a42a87c881">
+                <propertyInstance
+                  Id="eecf4d21-ef79-4dfc-a877-07b7e8f1d5b3"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="aeafb33c-402b-48cb-babd-7001f166493a">
+                <propertyInstance
+                  Id="d1d48114-9875-4883-93d2-9804ffee58a3"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="79c79241-399e-4ae6-81e6-67688ed5b3e9">
+                <propertyInstance
+                  Id="00396bff-9b1d-46e5-a281-499b6a1b0103"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d5d698b5-94a4-49d1-8288-f50f1ad7b7f3">
+                <propertyInstance
+                  Id="2c81c6eb-734a-4ae8-b672-52d55b518a9b"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="63b6b549-ef9e-49c9-b6fd-7ceb52184b43">
+                <propertyInstance
+                  Id="257b7f27-a70d-436f-b502-e7c66b55d86c"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="f5c14372-615b-427d-b75d-eecec01d8cbd"
+            isDerived="false"
+            sourceEndRoleName=""
+            targetEndRoleName=""
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="35341103-588d-478c-b194-2745760d7e41"
+              LastKnownName="Connector"
+              LastKnownLocation="Package_1508.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="634c6324-c23a-4869-998c-ecfb00fb098e"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="Shared"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ed620997-5fae-4946-a924-ec9f4e196170"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="f4f64456-0185-4474-a896-71a503fe7d69"
+                      name="Lower"
+                      value="2" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="0fa28595-cfcf-441e-9e05-b55f68c1f5bf"
+                      name="Upper"
+                      value="2" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="87bfd159-9454-4392-9c55-c44b592563fe"
+            isDerived="false"
+            sourceEndRoleName=""
+            targetEndRoleName=""
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="9c3247d5-cfdd-453c-bc5c-6e56f4f12a59"
+              LastKnownName="Transmitter"
+              LastKnownLocation="Package_1531.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="36fdb735-06a9-4bbc-87e2-87f6553630c9"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="34e8ac0c-bff4-4bf3-b823-2bed6a7500bc"
+                      name="Lower"
+                      value="0" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="a32d08c8-e142-40df-829f-a144de71f7a6"
+                      name="Upper"
+                      value="4" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e8b06be2-62d5-4cc5-8b6c-41e10037655f"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="9b50db8b-c964-4b1a-9dca-5527c9f2cb21"
+            name="BlueConnector"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="326b3c41-a152-4c0d-8eae-60f67ebb8eb8"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Actuators Type%3DReceiver Member%3DBlueConnector"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="554e049d-f2cb-4f62-9624-5501efa3510b"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fb7e43b1-1fe5-46f4-99b3-627b81ed81c2">
+                    <propertyInstance
+                      Id="e8456302-f255-422c-81f3-900f0531cb2c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f13f2f2c-e929-4686-b939-773262e1b25f">
+                    <propertyInstance
+                      Id="8dd54ee1-30e6-48c9-9de5-56d15a1f1650"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3e36cf1e-e31e-4030-a6b5-9d24cd487f8a">
+                    <propertyInstance
+                      Id="95c1ade1-4d03-4bcc-9c3c-3339ed02e3d5"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ec0d14ed-6cc4-4e1a-ae52-d0404668da22">
+                    <propertyInstance
+                      Id="99400aa1-e35e-477b-9fe6-c599d56fde44"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ea592a38-8250-41f8-adbe-951491fbcc43">
+                    <propertyInstance
+                      Id="1f8b449b-6fa4-414f-b3f9-415f22037d94"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d4c560ec-ca9f-435a-9305-2a7991ccee92">
+                    <propertyInstance
+                      Id="781b70ff-ae49-4f69-b1d5-36ff1d283dfb"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2c10300d-dbaf-44d8-965e-9025f22e18d6">
+                    <propertyInstance
+                      Id="b7edbdfe-0dde-458f-bc1b-13767ccf88cd"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="35341103-588d-478c-b194-2745760d7e41"
+                LastKnownName="Connector"
+                LastKnownLocation="Package_1508.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="b8d8d1ce-f4b3-452d-a0c8-12208eefb406"
+            name="RedConnector"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="9f76fc5c-5691-4b66-ac32-ea8ef9cbd6c2"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Actuators Type%3DReceiver Member%3DRedConnector"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c60f073c-a74c-49f3-9ca6-42fc0318ffc9"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="599d7dd3-0376-4ed3-aee7-ebcb226b4742">
+                    <propertyInstance
+                      Id="ec12a504-cddd-43ca-8d60-b14af45bc969"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7648a6c0-919e-4daf-8b03-764f9c729f48">
+                    <propertyInstance
+                      Id="a1f7edb9-6e28-47d1-b222-a1b4ab6232d1"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="89ebe98c-0779-441c-b352-4e8cf705e52d">
+                    <propertyInstance
+                      Id="95ad57cc-6e10-4d7d-b88a-f2356cc321bb"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a1f0ddb5-5189-4b92-9743-0eb98583bac4">
+                    <propertyInstance
+                      Id="fae68480-da0f-498d-9dc2-5a37e40040f7"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e41380f3-f2ef-427c-92cb-28054776894b">
+                    <propertyInstance
+                      Id="5cc50301-2d33-46ae-b2f2-63c2e93dde7f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="03ee22d2-7074-400d-9c99-007c9c0c6651">
+                    <propertyInstance
+                      Id="8b359090-a6eb-4dec-bea9-9b3527faccee"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6078deb0-9acc-40e2-bf07-7d358a6c6501">
+                    <propertyInstance
+                      Id="7aaad8f5-7611-4647-9b54-910eba2aad27"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="35341103-588d-478c-b194-2745760d7e41"
+                LastKnownName="Connector"
+                LastKnownLocation="Package_1508.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="e98ec700-e303-4415-bd77-505562cc2119"
+            name="m_BlueConnector"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="10102901-abd2-45b3-af43-6af3bd7e89ad"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Actuators Type%3DReceiver Member%3Dm_BlueConnector"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="53385eda-0564-4fdc-8ed7-71b0cd38d67e"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="75249e19-57fe-433c-bcd6-1e115b5a4f1b">
+                    <propertyInstance
+                      Id="4a69ed18-d1d4-460a-935e-5ebe0b49957f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cf3960cf-a3ba-41a4-8169-6e1420be6d3a">
+                    <propertyInstance
+                      Id="9e4410b3-b9ae-4086-ade4-df2dcf11786c"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0611ad1e-2cfe-4b47-aea7-a5cbac3d6084">
+                    <propertyInstance
+                      Id="cb410282-3fae-48d5-ab91-fd1ca2e314bd"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="114c7a53-3d28-4c4b-911b-bc695379e012">
+                    <propertyInstance
+                      Id="db493d70-4e38-49b6-a160-32742f694849"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="34840dc1-ca7c-4440-bde3-534d9a492d89">
+                    <propertyInstance
+                      Id="7e50beae-f504-44ba-922f-8eaf09451082"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="35341103-588d-478c-b194-2745760d7e41"
+                LastKnownName="Connector"
+                LastKnownLocation="Package_1508.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="6f117e51-bf1c-4e20-880e-9c2465e4747e"
+            name="m_RedConnector"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="5def25cc-a015-4968-8612-979b8308bd32"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Actuators Type%3DReceiver Member%3Dm_RedConnector"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="19502042-b68d-4c63-9c24-601fffdce6d9"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ab9d8387-8583-4b8d-ae42-b2a622cdbca0">
+                    <propertyInstance
+                      Id="6a417462-7fb5-4ac0-a05b-f50cefd91ed1"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ff9c4c89-7dd1-42a1-926d-497af27ad919">
+                    <propertyInstance
+                      Id="606c01e4-2ead-43ec-95e8-7f63d1ab344e"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="04a41f43-ee3c-4c3f-8c45-e41114895378">
+                    <propertyInstance
+                      Id="4fa6184b-3afa-4c9e-91ca-04fc93e3551c"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="95e31c61-406b-44f6-8d98-9997cd124ae1">
+                    <propertyInstance
+                      Id="1e481fe0-8d04-4b4c-b789-c69bca2abf97"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1cae2777-6d93-481b-ba85-65fb5228e149">
+                    <propertyInstance
+                      Id="5f3df77b-f665-4911-8e5b-b9d58ecdb248"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="35341103-588d-478c-b194-2745760d7e41"
+                LastKnownName="Connector"
+                LastKnownLocation="Package_1508.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="09e61a33-6d2e-4a63-8d6e-9150d1924da2"
+            name="Receiver"
+            visibility="Package"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d478b1b4-f5d1-4179-b361-27103bde8137"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Actuators Type%3DReceiver Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DRemoteControl)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a4ff2edd-721b-4246-a126-f57b675b2e78"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="28f05601-8f09-4c9f-a972-f4c22065cdcf">
+                    <propertyInstance
+                      Id="5ba78960-148d-4127-8a27-e7026469da86"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="752c4e31-99e9-4783-b2f3-d2e6d94beed4">
+                    <propertyInstance
+                      Id="e5f5eb22-e219-419e-94c1-279d73d5dfd3"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3ca89d78-3255-43df-a3ad-d5d74ec0d79b">
+                    <propertyInstance
+                      Id="89a65c21-a303-46ec-95bf-3d77ad19b654"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1cea79bf-ccaf-43f9-be96-4ff541bb0f58">
+                    <propertyInstance
+                      Id="96dbb9ca-9e21-4af3-97cc-66be2e271d33"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3f03ed43-4540-4ab7-b1d5-f7161dfe72b0">
+                    <propertyInstance
+                      Id="408f6739-4fa2-4fd9-8963-0fa05bbf8130"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7eff1570-fe1c-4cd6-903f-1643ddd878d6">
+                    <propertyInstance
+                      Id="4e0170f4-07ab-42fc-a611-dea84a2cfd04"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="420e99e1-473c-4c46-a70a-020e9d68a884"
+                  name="remoteControl"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="51670b85-b2cc-40bf-8d58-9235462fbd77"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Actuators Type%3DReceiver Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DRemoteControl)]) ParameterIdentifier%3DremoteControl"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="7803b401-162f-4071-8bde-65c0dbf57504"
+                      LastKnownName="RemoteControl"
+                      LastKnownLocation="Package1_1527.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="41a26c4a-e614-4ee5-b646-9fe55762b417"
+            name="Receiver"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="56d30f8a-fc97-491b-960a-2dcfa205fcf8"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Actuators Type%3DReceiver Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Communication Type%3DTransmitter)%2C(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DChannel)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c0bf80ce-0b1c-4800-af9a-683ee4abb6a8"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bc977953-4f3f-45c8-990d-83b12fbe1f3c">
+                    <propertyInstance
+                      Id="dcc898eb-8c69-4d4e-9c74-02d57c065460"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="43bad0e3-c9dd-4c4b-b71e-ba7c98604a1d">
+                    <propertyInstance
+                      Id="438e67b2-4d0a-4b2b-85ac-7fa8b2eb47c2"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="57961565-f3b8-435f-945b-efecb9c1c305">
+                    <propertyInstance
+                      Id="2d4da4ab-f533-4ec3-8f3e-f7f8ce75bf3f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="81609edc-bfbe-45dc-914f-24e0a6ac2a09">
+                    <propertyInstance
+                      Id="a9c7249a-a8f1-4c16-bea4-c0ae5647858f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fcf1f501-1480-413e-bbbe-877a68f05868">
+                    <propertyInstance
+                      Id="2b49c05b-768c-4d88-94b8-015a377e8e94"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b6598513-e3e2-4b81-8edc-8b71773667e4">
+                    <propertyInstance
+                      Id="2a2f2772-42a8-4c5d-a34d-dabe6d2acc9a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f7fad761-b180-400f-8ece-ac89cbbb9e8d"
+                  name="transmitter"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="32202799-bc23-47f1-a7a7-39c6ebdb8981"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Actuators Type%3DReceiver Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Communication Type%3DTransmitter)%2C(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DChannel)]) ParameterIdentifier%3Dtransmitter"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="9c3247d5-cfdd-453c-bc5c-6e56f4f12a59"
+                      LastKnownName="Transmitter"
+                      LastKnownLocation="Package_1531.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="69dd251c-7f2a-4968-a86b-e05e891c682b"
+                  name="channel"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="5e757ab3-7981-43ca-a6d0-78c59d48c6c8"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Actuators Type%3DReceiver Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Communication Type%3DTransmitter)%2C(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DChannel)]) ParameterIdentifier%3Dchannel"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <enumerationMoniker
+                      Id="a128d25c-9678-42ea-9794-6d2317611b93"
+                      LastKnownName="Channel"
+                      LastKnownLocation="Package6_1501.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

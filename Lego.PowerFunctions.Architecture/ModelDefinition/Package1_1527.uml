@@ -1,0 +1,914 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="f6e154ea-9cc2-4442-ab79-92e96721829d"
+  name="Control" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="7803b401-162f-4071-8bde-65c0dbf57504"
+        name="RemoteControl"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="9bcbffcd-0c7e-430d-9645-589aa9cff928"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DRemoteControl"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="70329a8f-9c6b-4e1f-8bff-89a3bb0490f9"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8be9e03e-447b-4012-a6d7-163a450a4aa0">
+                <propertyInstance
+                  Id="2f82a629-f8e4-4393-a692-155ee4702a5f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="05abccff-0319-4e77-939c-0d4311b0a86c">
+                <propertyInstance
+                  Id="ddf4b0fa-0a62-4f15-b75d-df588e6b3808"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="59c407d2-e472-4d98-8d9d-c69da853d715">
+                <propertyInstance
+                  Id="3f66b39f-a261-41d1-9dad-e82f6467dcb1"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3fc2a0cf-3dea-44f7-8380-299019e76c09">
+                <propertyInstance
+                  Id="9cc5dd29-872f-4795-bdf6-7e6a6a94f416"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d7ea159f-0478-4315-9e77-e4027a24c052">
+                <propertyInstance
+                  Id="805d8835-c553-4893-a6ff-82c428040785"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <dependency
+            Id="294f2dc9-27ab-44d8-bcf6-a42b6bec1080">
+            <classMoniker
+              Id="d81bd08e-2259-4f9c-8387-03a9fb39b4d2"
+              LastKnownName="CommandFactory"
+              LastKnownLocation="Package_1527.uml" />
+          </dependency>
+        </suppliersInternal>
+        <targetEnds>
+          <association
+            Id="cbdbef8d-9d50-4e9a-9067-962ccbac5f98"
+            isDerived="false"
+            sourceEndRoleName=""
+            targetEndRoleName=""
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="e521e514-1d72-4677-ae1c-bf5afc90cdb8"
+              LastKnownName="CommandProcessor"
+              LastKnownLocation="Package_1527.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c9bab43a-2fd8-4514-94af-4e0756b19455"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="42f2be26-b681-42ce-ba88-623944a91081"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="235c22f3-d7dc-4a40-984d-08e500f3f35a"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1d74524e-98d7-4d43-bb20-00e76e0db8fa"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="26b8bdd9-d6b9-42ef-a321-b24d367bd754"
+            name="m_CommandProcessor"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="3d4abac2-3b0d-411c-b054-baf796cf757b"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DRemoteControl Member%3Dm_CommandProcessor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8f040c5e-1f83-4a81-9f39-cd85bb150fef"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a78a47fb-db7a-4777-bb5f-b4964f5afdbe">
+                    <propertyInstance
+                      Id="e4834109-a068-483f-a9e8-fbc7cd3323ce"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="baff513b-4cd4-4eed-b339-7973efe1d416">
+                    <propertyInstance
+                      Id="bcd093d0-aa78-4976-afc1-d66d6af87ae1"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b9c8de31-9833-44bb-ae27-ad45d07807fb">
+                    <propertyInstance
+                      Id="b85970ad-726d-45ce-8f1b-dadcf8561750"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eb0d51ee-09e7-456e-928e-c92e936306a2">
+                    <propertyInstance
+                      Id="6b38dced-95ca-499a-89d9-d1210636ee99"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cf7ab26c-b037-4079-b12b-b639da660ee9">
+                    <propertyInstance
+                      Id="7042cde0-2e15-4796-95e1-456b1a3a8796"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="e521e514-1d72-4677-ae1c-bf5afc90cdb8"
+                LastKnownName="CommandProcessor"
+                LastKnownLocation="Package_1527.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="e7f3cba1-959c-4edd-8916-d96c859f8c08"
+            name="RemoteControl"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="07c09ae6-8e8e-4fa5-9230-d0b52a11a4dc"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DRemoteControl Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Commands Type%3DCommandProcessor)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FMicrosoft .NET Micro Framework%2Fv4.2%2FAssemblies%2Fle%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="fdef18fb-db6b-4bfb-8f0b-9728247168d5"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6b070009-cd42-4567-be98-270b1bc3a958">
+                    <propertyInstance
+                      Id="1e595bf6-59cc-43c6-b051-00c8c818d3c6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="01b656c0-c09b-4603-89e9-9669060bd680">
+                    <propertyInstance
+                      Id="d33f8d4b-9f34-428b-8610-84f53e27693c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="af5e74cd-f5de-4762-8590-bd4b88359017">
+                    <propertyInstance
+                      Id="6b1bd06c-db8e-4809-9b35-f3a81b699867"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="51cc69a4-7ed4-4b55-a13a-fe88da2a0653">
+                    <propertyInstance
+                      Id="4b788325-3ee4-41aa-bfc4-6c11ad843ca3"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6b64bb60-34b9-4ca9-9f35-8b27d9c18f7f">
+                    <propertyInstance
+                      Id="0dc17ea7-f0cd-4ec5-b69d-697478dd73cf"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ea7524d1-75e8-420e-a09c-8bc1880d58d1">
+                    <propertyInstance
+                      Id="83ffaf69-7e88-49eb-afc4-2a108615608c"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c11bbb9a-f3b5-4b95-b1e0-0ef622ee721e"
+                  name="commandProcessor"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="507fb115-6a29-41f0-95fe-f973ea08c649"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DRemoteControl Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Commands Type%3DCommandProcessor)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FMicrosoft .NET Micro Framework%2Fv4.2%2FAssemblies%2Fle%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)]) ParameterIdentifier%3DcommandProcessor"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="e521e514-1d72-4677-ae1c-bf5afc90cdb8"
+                      LastKnownName="CommandProcessor"
+                      LastKnownLocation="Package_1527.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="3bee13f1-30cd-4fa7-b28f-d4ebcae36fb6"
+                  name="disposeCommandProcessor"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="210f95f0-8555-44f0-bec4-3a5a9e265135"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DRemoteControl Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Commands Type%3DCommandProcessor)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FMicrosoft .NET Micro Framework%2Fv4.2%2FAssemblies%2Fle%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)]) ParameterIdentifier%3DdisposeCommandProcessor"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="Lego.PowerFunctions.Architecture.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="572a8e2f-79c8-4c8b-aa84-b5b761d51abb"
+            name="RemoteControl"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="caa42022-eafe-460c-a972-14c6eb5e4040"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DRemoteControl Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Communication Type%3DTransmitter)%2C(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DChannel)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c1b83a20-688c-4ab5-aaef-036ce2ae6e5d"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="196f19d4-50e8-4aed-b6f4-c398228f09fb">
+                    <propertyInstance
+                      Id="ccfab6fa-aa5d-4aac-9151-3d230173c84c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8924e18c-be07-4b37-976b-8763b63a6094">
+                    <propertyInstance
+                      Id="b9151363-0d10-4a10-9e7e-a15ff41da560"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="271be2b0-5e40-4264-8935-fc0456f4e7d4">
+                    <propertyInstance
+                      Id="d243bddd-9f51-4c86-9c4f-ff293ffa311a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e9808a7a-83d3-40e7-b453-d1ee467eb669">
+                    <propertyInstance
+                      Id="fd86429e-642a-4f11-80e5-fc5505a37606"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="35699d41-ae2e-40f0-be5f-8279f818817b">
+                    <propertyInstance
+                      Id="18e594d3-dea6-415e-86d7-cd73b08a3567"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eb2b6c72-127a-4fe0-9e2b-00723ebff328">
+                    <propertyInstance
+                      Id="fc54c0a7-3d67-4967-af54-e26251591c69"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4435ccfd-257a-4de4-ac1a-1481b76cd7bf"
+                  name="transmitter"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="de632d19-282c-4b3a-aca1-b8e497804dec"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DRemoteControl Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Communication Type%3DTransmitter)%2C(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DChannel)]) ParameterIdentifier%3Dtransmitter"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="9c3247d5-cfdd-453c-bc5c-6e56f4f12a59"
+                      LastKnownName="Transmitter"
+                      LastKnownLocation="Package_1531.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e8d56c0d-b7a5-4a6f-bbaa-aedba598bad7"
+                  name="channel"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="535c09e9-eeab-4652-80dd-70cc9c696b4b"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DRemoteControl Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Communication Type%3DTransmitter)%2C(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DChannel)]) ParameterIdentifier%3Dchannel"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <enumerationMoniker
+                      Id="a128d25c-9678-42ea-9794-6d2317611b93"
+                      LastKnownName="Channel"
+                      LastKnownLocation="Package6_1501.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="d5667c27-1e3e-4bb4-8dce-577d1b60ecd9"
+            name="Execute"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="3af262c4-d930-43ad-bbe4-925a38775af3"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DRemoteControl Member%3D(Name%3DExecute OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DDirectState)%2C(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DDirectState)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b54636df-a55f-4a48-a2a6-bd4addb37334"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="053be169-ad20-41a5-a3a1-ec6472a047ff">
+                    <propertyInstance
+                      Id="c93b4289-c63b-455a-b50f-a15b8ccdc6b4"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a6c8325f-55f2-487c-816f-f4b764b01cf4">
+                    <propertyInstance
+                      Id="b13cdfe7-0c49-4e7f-aa7e-d8eacddbe49b"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c2565130-4841-4cd4-812b-13c53ed2ba00">
+                    <propertyInstance
+                      Id="ff3ba00a-e2e2-4b1c-adc4-2181ea696d23"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c1595380-0897-4009-90df-50fac9199594">
+                    <propertyInstance
+                      Id="cd4738b1-fef0-422d-99ee-22b783a37e33"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d199b331-bac1-4e76-a1ca-436d0c4c799a">
+                    <propertyInstance
+                      Id="ad2f9aa2-4c84-48f6-ae82-1f9132136431"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3cd8d6f9-e818-40a3-98c1-9e1e41025c3d">
+                    <propertyInstance
+                      Id="cd237208-d42d-4c65-8dbe-14009e6a243d"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b8797703-71fe-4fab-a608-ebb576efef49"
+                  name="blueState"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="09967d6a-6456-49cb-b1ac-6cde1ce7f566"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DRemoteControl Member%3D(Name%3DExecute OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DDirectState)%2C(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DDirectState)]) ParameterIdentifier%3DblueState"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <enumerationMoniker
+                      Id="7a08e73c-ae2a-41b8-82ad-de51e1afca30"
+                      LastKnownName="DirectState"
+                      LastKnownLocation="Package6_1501.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a22b9afa-4af3-47e6-9e1b-1b26f8b6e7c2"
+                  name="redState"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="edb247e6-2519-4991-87c1-e4d922e258ea"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DRemoteControl Member%3D(Name%3DExecute OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DDirectState)%2C(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DDirectState)]) ParameterIdentifier%3DredState"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <enumerationMoniker
+                      Id="7a08e73c-ae2a-41b8-82ad-de51e1afca30"
+                      LastKnownName="DirectState"
+                      LastKnownLocation="Package6_1501.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="a0e8a90a-6ef6-4a82-bd96-3cd28fd72e9c"
+            name="Execute"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="6c08995c-c8d3-45a7-a708-78138b5aea8b"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DRemoteControl Member%3D(Name%3DExecute OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DExtFunction)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="4fd3d408-27c5-40fb-a0c5-b2bea7aa4fa9"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="def42970-91c3-4191-a823-fd1442357819">
+                    <propertyInstance
+                      Id="693c4b15-5372-4631-9770-0ec5b0c05787"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0dd8b866-b2cc-4725-8966-fcae6acfcd7a">
+                    <propertyInstance
+                      Id="b5374fe3-ccb9-43c6-b42e-acf88b8c6ce2"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f050efda-4eba-46d5-9647-55677ba35c46">
+                    <propertyInstance
+                      Id="bf2250db-e954-4188-8679-f5aa2cdbe82f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="687aff3b-42b5-46b6-ba74-cb4f2a8b5db9">
+                    <propertyInstance
+                      Id="952e9d87-d79e-44a5-941f-dbe6323bf2e5"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2fc73374-8882-4618-bbb6-607d4de5e929">
+                    <propertyInstance
+                      Id="8a9a7571-cd16-482b-be49-f77abf45e9cd"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d8d1df91-2799-4fef-8743-daab245230d3">
+                    <propertyInstance
+                      Id="79f8a4a7-9b2d-4663-9f53-ea04e173980f"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="7ebec08e-7199-467e-b5ed-9cb3e61e149b"
+                  name="extFunction"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="6031287b-8e98-4dde-843c-30fec5ab2e8a"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DRemoteControl Member%3D(Name%3DExecute OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DExtFunction)]) ParameterIdentifier%3DextFunction"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <enumerationMoniker
+                      Id="03d9dc53-e35c-453d-b4cd-a52a23f34427"
+                      LastKnownName="ExtFunction"
+                      LastKnownLocation="Package6_1501.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="d3bb4a96-a4ea-4fd9-bc65-3bce7fe04ef1"
+            name="Execute"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="29e346d9-4151-4632-a92f-27ecf65d353b"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DRemoteControl Member%3D(Name%3DExecute OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DOutput)%2C(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DIncDec)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a449b50d-448b-41ea-8248-c49b29bd68e0"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8bfaf3d9-3137-4cc9-9a54-3829eb521af2">
+                    <propertyInstance
+                      Id="2c92dbb9-b894-40ee-8704-0e0175530753"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4f954eda-2fe6-4ee0-be8b-7c275c76f038">
+                    <propertyInstance
+                      Id="4fdf3105-531a-43f9-8b40-8a2a4e5bcf8f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="71acb808-4110-4d20-bf5d-91b47e47e7d3">
+                    <propertyInstance
+                      Id="ff1d0860-4385-4697-af57-f22771c3ce3d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c052d4cd-75e1-493f-a05e-3d530ac24f01">
+                    <propertyInstance
+                      Id="fa5b4458-b579-4cfa-a6df-e3d357a8d069"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="32f8f110-8361-4aa6-8c21-6bf816ccc3b2">
+                    <propertyInstance
+                      Id="6452e2ab-df94-4be0-aac1-e18f3b1bc696"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bf4603d2-0616-47e3-a8b8-685e6bf8ba81">
+                    <propertyInstance
+                      Id="09f43796-0f82-4c5a-9293-bd4f6bff593a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="86bb27e3-d275-463d-a93d-5121906a2695"
+                  name="output"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="d2c62864-b6a5-4fba-9647-e9184f8ac2a1"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DRemoteControl Member%3D(Name%3DExecute OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DOutput)%2C(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DIncDec)]) ParameterIdentifier%3Doutput"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <enumerationMoniker
+                      Id="d671d809-2e86-40da-950a-fb9d99dfd31f"
+                      LastKnownName="Output"
+                      LastKnownLocation="Package6_1501.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="26b96e96-1e51-4078-9058-f81d9057de94"
+                  name="incDec"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="8a1d0153-0b9a-4b6d-8f6b-48c3697453e8"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DRemoteControl Member%3D(Name%3DExecute OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DOutput)%2C(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DIncDec)]) ParameterIdentifier%3DincDec"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <enumerationMoniker
+                      Id="0dba385e-d6b7-4b59-9637-2935167a6122"
+                      LastKnownName="IncDec"
+                      LastKnownLocation="Package6_1501.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="17506699-a717-4e8e-b2e4-1bca368027b1"
+            name="Execute"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="4b8cab53-5916-499b-ad40-0cf7364e7bbb"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DRemoteControl Member%3D(Name%3DExecute OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DOutput)%2C(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DPwmSpeed)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b5ec68b2-2eaf-4a3d-be5c-f7e60e2b1471"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f49c7af5-896a-4051-8e16-a8b8a9b863b8">
+                    <propertyInstance
+                      Id="0ec607ae-af31-4db4-aa1c-8eb7bd063d97"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2558a015-5cf4-462a-8785-b67b6ae9c8cd">
+                    <propertyInstance
+                      Id="fc98fd1d-0dcb-4dbd-95be-44ec67c172a9"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="463a19a1-bb9a-4a94-a71e-7be91b3f011e">
+                    <propertyInstance
+                      Id="81f8146d-0bb4-48d8-942a-33026fad8312"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="797fde00-8610-42cc-b306-61f3c688eaa5">
+                    <propertyInstance
+                      Id="4249f25f-7141-49c8-a05b-5d252a19b72a"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c6e44284-77c2-43df-ba13-1fde4826dce1">
+                    <propertyInstance
+                      Id="ec145035-5f3f-489f-9388-ad941e77fdc5"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="26169b08-6dbf-4720-b32f-95136e8fd526">
+                    <propertyInstance
+                      Id="1472d276-7372-4f68-9e4b-5b13b2f2c5ac"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e05f053c-3310-481d-a382-0efb7c09676d"
+                  name="output"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="32dbc82c-deb2-4068-a73f-dcec6f466cc5"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DRemoteControl Member%3D(Name%3DExecute OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DOutput)%2C(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DPwmSpeed)]) ParameterIdentifier%3Doutput"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <enumerationMoniker
+                      Id="d671d809-2e86-40da-950a-fb9d99dfd31f"
+                      LastKnownName="Output"
+                      LastKnownLocation="Package6_1501.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="56fd3537-76c3-4842-b785-f2cebd285979"
+                  name="speed"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="09b6d7b3-c264-4b08-b4f9-4e71241df170"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DRemoteControl Member%3D(Name%3DExecute OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DOutput)%2C(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DPwmSpeed)]) ParameterIdentifier%3Dspeed"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <enumerationMoniker
+                      Id="432f325e-406f-428c-a0d9-a199e2a89602"
+                      LastKnownName="PwmSpeed"
+                      LastKnownLocation="Package6_1501.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="1b995569-a1fb-44d6-b7a8-d448ea302b84"
+            name="Execute"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="3d601e4f-d001-4a27-b435-5d35d964f398"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DRemoteControl Member%3D(Name%3DExecute OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DPwmSpeed)%2C(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DPwmSpeed)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="4349eee9-a053-4100-8576-914b696fa8b5"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="72397748-5bc4-4a1a-854e-daf822ceabf7">
+                    <propertyInstance
+                      Id="5eef1e9a-e494-4351-aaa2-15ebd75918e8"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="976da2e8-3207-4767-af9e-2a0c6a4ae6ed">
+                    <propertyInstance
+                      Id="e312c935-266d-422d-af70-35bd8a359bbb"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cfeafd1a-e3d6-4e4c-ace6-4bbb5c73ac50">
+                    <propertyInstance
+                      Id="0cc0ea52-6f6d-4d83-a1e7-f99f796cd96e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3553d7ba-e89e-4cce-af58-e79e600c5e86">
+                    <propertyInstance
+                      Id="293547cd-bca3-499e-8f2d-4ff2312123f2"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ce8c6c4e-e58a-43c5-b002-ac63654c513d">
+                    <propertyInstance
+                      Id="1ad95121-9126-428c-868e-d633ced463c4"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="78881ce2-eab0-49cb-b296-64c342e446b4">
+                    <propertyInstance
+                      Id="f4cfca2d-827b-4483-b5a6-f8ec346ef032"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ae334996-6cde-4796-a80c-d5ec864e6caa"
+                  name="redSpeed"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="c8458d2d-2252-4c25-9c39-f66fd9df19ee"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DRemoteControl Member%3D(Name%3DExecute OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DPwmSpeed)%2C(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DPwmSpeed)]) ParameterIdentifier%3DredSpeed"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <enumerationMoniker
+                      Id="432f325e-406f-428c-a0d9-a199e2a89602"
+                      LastKnownName="PwmSpeed"
+                      LastKnownLocation="Package6_1501.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="269ba2aa-7c14-4dc5-aac3-ddfca5bbacdf"
+                  name="blueSpeed"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="27520c36-e56c-4c15-8185-eaa3c6f05832"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DRemoteControl Member%3D(Name%3DExecute OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DPwmSpeed)%2C(Assembly%3Dfile:%2F%2F%2FD:%2Fgithub%2FLegoRC.net%2FLego.PowerFunctions%2Fbin%2FDebug%2FGma.Netmf.Hardware.Lego.PowerFunctions.dll Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions.Control Type%3DPwmSpeed)]) ParameterIdentifier%3DblueSpeed"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <enumerationMoniker
+                      Id="432f325e-406f-428c-a0d9-a199e2a89602"
+                      LastKnownName="PwmSpeed"
+                      LastKnownLocation="Package6_1501.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

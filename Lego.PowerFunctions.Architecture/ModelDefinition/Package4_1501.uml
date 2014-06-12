@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="8d829b44-c0cb-4383-9d87-390f66015333"
+  name="PowerFunctions"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="295ef200-614e-47e4-9e51-b68482a93053"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DGma.Netmf.Hardware.Lego.PowerFunctions"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="d510b200-d167-453d-871a-6f926abb1709"
+        LastKnownName="Actuators"
+        LastKnownLocation="Package5_1501.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="45c6c770-fa02-4608-9a09-cdff0e9b45a7"
+        LastKnownName="Control"
+        LastKnownLocation="Package6_1501.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="b818088d-4c47-4cca-8c0d-608fe6c38cbb"
+        LastKnownName="Commands"
+        LastKnownLocation="Package7_1501.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="cc740c58-ff7f-44ae-a11a-3d581c40f41e"
+        LastKnownName="Communication"
+        LastKnownLocation="Package8_1501.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

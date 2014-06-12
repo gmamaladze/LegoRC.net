@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="831eee74-f704-4bcf-b9f5-c719590e4853"
+  name="Hardware"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="d1060a59-f90d-4a7b-a189-0d2e092420af"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DMicrosoft.SPOT.Hardware"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <enumeration
+        Id="3f94920d-c308-4a35-b219-70f09b8a6004"
+        name="Pin"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="74cd4f21-ae79-42f4-a63b-c83edb32e325"
+            handle="viewcode://./CodeSchema_Enum?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FMicrosoft .NET Micro Framework%2Fv4.2%2FAssemblies%2Fle%2FMicrosoft.SPOT.Hardware.dll&quot; Namespace%3DMicrosoft.SPOT.Hardware Type%3D(Name%3DPin ParentType%3DCpu)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="7f8187b5-119d-4120-a5de-a7f6f766ab08"
+            name="enum"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e4eeeca7-8c72-45a6-8eef-7d6e7cd36e42">
+                <propertyInstance
+                  Id="4dcb50a8-bc56-4283-bb52-d7c2b7442a56"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9dc230cd-23e3-4eeb-b9fc-07f14e109d3c">
+                <propertyInstance
+                  Id="68735d50-8c79-40cf-bf43-b3d1cb5d651a"
+                  name="BaseType"
+                  value="int" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="76e4233a-fb06-4f8d-b25b-6a47314a46d4">
+                <propertyInstance
+                  Id="dab58cb0-8334-433d-814b-33b9780cc09f"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </enumeration>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="48ceaff3-6d86-43e8-a241-3b340fed0625"
+        name="SPI"
+        isAbstract="false"
+        isLeaf="true"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="41b0dee2-27f2-4c5a-bbee-797d29838224"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FMicrosoft .NET Micro Framework%2Fv4.2%2FAssemblies%2Fle%2FMicrosoft.SPOT.Hardware.dll&quot; Namespace%3DMicrosoft.SPOT.Hardware Type%3DSPI"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="3b96512a-be8a-40f5-9a41-c94c512ed2bd"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="20620b91-f36f-495c-9fa7-9cbc18d8e129">
+                <propertyInstance
+                  Id="5c3d039d-3765-42d3-be10-3d2bcab271f1"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="44ba8f40-fd8f-4e6e-96ba-e51228a69c1a">
+                <propertyInstance
+                  Id="15657164-b42b-46b5-ad6f-2ef8a8f18c60"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="19dd7295-b7f8-40c4-b383-3853d8cd95cb">
+                <propertyInstance
+                  Id="a0c3b251-8fe6-4248-b086-e0cdd3bcfda1"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="143294b9-1a41-42ca-b972-cc6ff03e64e2">
+                <propertyInstance
+                  Id="dab52c18-c704-4e51-b0a9-5a9c1617f169"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="21caf37d-5b50-498d-8ab1-c93c12e5c778">
+                <propertyInstance
+                  Id="f58aedf8-325a-4a18-a584-20adf4985069"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="c413c780-6a10-4fea-804c-b11f5ac1302b">
+            <interfaceMoniker
+              Id="1568920e-62bf-4b62-a1be-496319b5ef43"
+              LastKnownName="IDisposable"
+              LastKnownLocation="Package9_1501.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
