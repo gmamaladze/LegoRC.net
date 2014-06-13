@@ -13,13 +13,36 @@ namespace Gma.Netmf.Hardware.Lego.PowerFunctions.UsageExample
     {
         public static void Main()
         {
-            var transmitter = new Transmitter();
-            var receiver = new Receiver(transmitter, Channel.Ch1);
-            var motor = new Motor(receiver.RedConnector);
+            using (var transmitter = new Transmitter())
+            {
 
-            motor.SetSpeed(100);
-            Thread.Sleep(1000);
-            motor.Brake();
+                //Firts vehiclle
+                var receiverTrain = new Receiver(transmitter, Channel.Ch1);
+                var motor = new Motor(receiverTrain.RedConnector);
+                var light = new Led(receiverTrain.RedConnector);
+
+                //Rover on another channel
+                var receiverRover = new Receiver(transmitter, Channel.Ch2);
+                var drive = new Motor(receiverRover.BlueConnector);
+                var steeringWheel = new Servo(receiverRover.RedConnector);
+
+                //Now Control
+                while (true)
+                {
+                    motor.IncSpeed();
+                    light.TurnOn();
+
+                    drive.SetSpeed(100);
+                    steeringWheel.SetAngle180(45);
+
+                    Thread.Sleep(10000);
+
+                    steeringWheel.Center();
+                    motor.Brake();
+
+                    light.TurnOff();
+                }
+            }
         }
     }
 }

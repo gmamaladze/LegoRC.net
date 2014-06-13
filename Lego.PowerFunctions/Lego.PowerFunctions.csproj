@@ -33,6 +33,7 @@
   <ItemGroup>
     <Compile Include="Actuators\Actuator.cs" />
     <Compile Include="Actuators\Connector.cs" />
+    <Compile Include="Actuators\Led.cs" />
     <Compile Include="Actuators\Motor.cs" />
     <Compile Include="Control\PwmSpeedExtensions.cs" />
     <Compile Include="Actuators\Servo.cs" />
