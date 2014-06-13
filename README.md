@@ -6,6 +6,6 @@ Using this library is as simple as building using LEGO bricks.
 
 Samples and pictures here: https://github.com/gmamaladze/LegoRC.net/wiki
 
-NuGet hare: https://www.nuget.org/packages/LegoRC.net
+NuGet here: https://www.nuget.org/packages/LegoRC.net
 
 Enjoy!
