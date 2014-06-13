@@ -45,9 +45,9 @@
     <Compile Include="Control\PwmSpeedExtensionsTest.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Communication\MessageTestCases.json">
+    <None Include="Communication\MessageTestCases.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Compile>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

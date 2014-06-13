@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>LegoRC.net</id>
+        <version>1.0.0</version>
+        <authors>George Mamaladze</authors>
+        <owners>George Mamaladze</owners>
+        <licenseUrl>http://opensource.org/licenses/mit-license.php</licenseUrl>
+        <projectUrl>https://github.com/gmamaladze/LegoRC.net/wiki</projectUrl>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <description>This library allows to control LEGO power functions components like motors, servos, LEDs etc. using Netduino and .NET Micro Framework. If you are familiar with both LEGO and Netduino, build your LEGO Technics vehicle, robot or LEGO city railroad go on and have fun with it. Only components you need in addition to netduino is an infrared LED and a resitor connected between 11th pin and GND.
+
+The library implements:
+* Infrared communication protocol
+* Classes allowing remote control
+* Convinient drivers for motor and servo</description>
+        <summary>The library allows to control Lego power functions (motors, servos, led, etc.) from Netduino using infrared remote control protocol.</summary>
+        <copyright>(c) George Mamaladze 2014</copyright>
+        <tags>.NET;NETMF;Netduino;LEGO;</tags>
+    </metadata>
+    <files>
+        <file src="..\Lego.PowerFunctions\bin\Debug\Gma.Netmf.Hardware.Lego.PowerFunctions.dll" target="lib\Gma.Netmf.Hardware.Lego.PowerFunctions.dll" />
+        <file src="..\Lego.PowerFunctions\bin\Debug\Gma.Netmf.Hardware.Lego.PowerFunctions.pdb" target="lib\Gma.Netmf.Hardware.Lego.PowerFunctions.pdb" />
+    </files>
+</package>

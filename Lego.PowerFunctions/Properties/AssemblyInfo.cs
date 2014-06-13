@@ -18,6 +18,6 @@ using System.Runtime.CompilerServices;
 [assembly: AssemblyCompany("George Mamaladze")]
 [assembly: AssemblyProduct("Gma.Netmf.Hardware.Lego.PowerFunctions")]
 [assembly: AssemblyCopyright("Copyright © George Mamaladze 2014")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("1.0.1.*")]
+[assembly: AssemblyFileVersion("1.0.1.0")]
 [assembly: InternalsVisibleTo("Gma.Netmf.Hardware.Lego.PowerFunctions.Tests")]
