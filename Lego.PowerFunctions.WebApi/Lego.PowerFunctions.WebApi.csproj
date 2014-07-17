@@ -1,23 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <AssemblyName>Gma.Netmf.Hardware.Lego.PowerFunctions.UsageExample</AssemblyName>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>Gma.Netmf.Hardware.Lego.PowerFunctions.UsageExample</RootNamespace>
+    <AssemblyName>Gma.Netmf.Hardware.Lego.PowerFunctions.WebApi</AssemblyName>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Gma.Netmf.Hardware.Lego.PowerFunctions.WebApi</RootNamespace>
     <ProjectTypeGuids>{b69e3092-b931-443c-abe7-7e7b65f2a37f};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <ProductVersion>9.0.21022</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{ED77C6CD-7C51-4FBF-B3C2-62E9F018D97A}</ProjectGuid>
+    <ProjectGuid>{A19E4DBB-885F-4E69-8D85-16167C9BCE39}</ProjectGuid>
     <TargetFrameworkVersion>v4.2</TargetFrameworkVersion>
     <NetMfTargetsBaseDir Condition="'$(NetMfTargetsBaseDir)'==''">$(MSBuildExtensionsPath32)\Microsoft\.NET Micro Framework\</NetMfTargetsBaseDir>
-    <DeployDevice>Netduino</DeployDevice>
-    <DeployTransport>USB</DeployTransport>
     <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
-    <Optimize>true</Optimize>
+    <Optimize>false</Optimize>
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
@@ -31,34 +29,30 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>Gma.Netmf.Hardware.Lego.PowerFunctions.UsageExample.Program</StartupObject>
-  </PropertyGroup>
   <Import Project="$(NetMfTargetsBaseDir)$(TargetFrameworkVersion)\CSharp.Targets" />
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Class1.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.SPOT.Hardware" />
-    <Reference Include="Microsoft.SPOT.Hardware.PWM" />
-    <Reference Include="Microsoft.SPOT.Hardware.SerialPort" />
-    <Reference Include="Microsoft.SPOT.Native" />
-    <Reference Include="Microsoft.SPOT.Net" />
-    <Reference Include="SecretLabs.NETMF.Hardware" />
-    <Reference Include="SecretLabs.NETMF.Hardware.Netduino" />
-    <Reference Include="System" />
+    <Reference Include="Gsiot.Server">
+      <HintPath>..\packages\Gsiot.Server.0.9.2\lib\netmf41\Gsiot.Server.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SPOT.Native">
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Lego.PowerFunctions.WebApi\Lego.PowerFunctions.WebApi.csproj">
-      <Project>{A19E4DBB-885F-4E69-8D85-16167C9BCE39}</Project>
-      <Name>Lego.PowerFunctions.WebApi</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Lego.PowerFunctions\Lego.PowerFunctions.csproj">
-      <Project>{DE7221E0-F7D2-4263-97F6-DEE1819AD2D6}</Project>
-      <Name>Lego.PowerFunctions</Name>
-    </ProjectReference>
+    <Content Include="WebContent\css\hello.css" />
+    <Content Include="WebContent\css\jquery-ui.css" />
+    <Content Include="WebContent\index.html" />
+    <Content Include="WebContent\js\hello.js" />
+    <Content Include="WebContent\js\jquery-1.10.2.js" />
+    <Content Include="WebContent\js\jquery-ui.js" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Properties\" />
+    <Folder Include="WebContent\img\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>

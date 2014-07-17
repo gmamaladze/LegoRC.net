@@ -1,32 +1,23 @@
-﻿// This code is distributed under MIT license. 
-// Copyright (c) 2014 George Mamaladze
-// See license.txt or http://opensource.org/licenses/mit-license.php
-
-#region usings
-
+﻿using System;
+using System.Net;
+using System.Net.Sockets;
 using System.Threading;
 using Gma.Netmf.Hardware.Lego.PowerFunctions.Actuators;
 using Gma.Netmf.Hardware.Lego.PowerFunctions.Communication;
 using Gma.Netmf.Hardware.Lego.PowerFunctions.Control;
+using Microsoft.SPOT;
+using Microsoft.SPOT.Hardware;
+using SecretLabs.NETMF.Hardware;
+using SecretLabs.NETMF.Hardware.Netduino;
 
-#endregion
-
-namespace Gma.Netmf.Hardware.Lego.PowerFunctions.UsageExample
+namespace Lego.PowerFunctions.App
 {
     public class Program
     {
         public static void Main()
         {
-            //var aaa = new Class1();
-            //aaa.TestX();
-
             using (var transmitter = new Transmitter())
             {
-                //Firts vehiclle
-                //var receiverTrain = new Receiver(transmitter, Channel.Ch1);
-                //var motor = new Motor(receiverTrain.RedConnector);
-                //var light = new Led(receiverTrain.RedConnector);
-
                 //Rover on another channel
                 var receiverRover = new Receiver(transmitter, Channel.Ch2);
                 var drive = new Motor(receiverRover.BlueConnector);
@@ -35,20 +26,16 @@ namespace Gma.Netmf.Hardware.Lego.PowerFunctions.UsageExample
                 //Now Control
                 while (true)
                 {
-                    //motor.IncSpeed();
-                    //light.TurnOn();
-
                     drive.SetSpeed(100);
                     steeringWheel.SetAngle180(45);
 
                     Thread.Sleep(1000);
 
                     steeringWheel.Center();
-                    //motor.Brake();
-
-                    //light.TurnOff();
                 }
             }
+
         }
+
     }
 }

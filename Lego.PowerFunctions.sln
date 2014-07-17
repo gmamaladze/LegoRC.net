@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30324.0
+VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lego.PowerFunctions", "Lego.PowerFunctions\Lego.PowerFunctions.csproj", "{DE7221E0-F7D2-4263-97F6-DEE1819AD2D6}"
 EndProject
@@ -10,6 +10,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lego.PowerFunctions.UsageExample", "Lego.PowerFunctions.UsageExample\Lego.PowerFunctions.UsageExample.csproj", "{ED77C6CD-7C51-4FBF-B3C2-62E9F018D97A}"
 EndProject
 Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "Lego.PowerFunctions.Architecture", "Lego.PowerFunctions.Architecture\Lego.PowerFunctions.Architecture.modelproj", "{1B073E52-C888-44FC-AC99-712490B84035}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lego.PowerFunctions.WebApi", "Lego.PowerFunctions.WebApi\Lego.PowerFunctions.WebApi.csproj", "{A19E4DBB-885F-4E69-8D85-16167C9BCE39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lego.PowerFunctions.App", "Lego.PowerFunctions.App\Lego.PowerFunctions.App.csproj", "{6DA15591-F0DE-4A76-97AF-6E7F3B0A3694}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +39,16 @@ Global
 		{1B073E52-C888-44FC-AC99-712490B84035}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B073E52-C888-44FC-AC99-712490B84035}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B073E52-C888-44FC-AC99-712490B84035}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A19E4DBB-885F-4E69-8D85-16167C9BCE39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A19E4DBB-885F-4E69-8D85-16167C9BCE39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A19E4DBB-885F-4E69-8D85-16167C9BCE39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A19E4DBB-885F-4E69-8D85-16167C9BCE39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DA15591-F0DE-4A76-97AF-6E7F3B0A3694}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DA15591-F0DE-4A76-97AF-6E7F3B0A3694}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DA15591-F0DE-4A76-97AF-6E7F3B0A3694}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6DA15591-F0DE-4A76-97AF-6E7F3B0A3694}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DA15591-F0DE-4A76-97AF-6E7F3B0A3694}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DA15591-F0DE-4A76-97AF-6E7F3B0A3694}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

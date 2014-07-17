@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <AssemblyName>Gma.Netmf.Hardware.Lego.PowerFunctions.UsageExample</AssemblyName>
+    <AssemblyName>Lego.PowerFunctions.App</AssemblyName>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Gma.Netmf.Hardware.Lego.PowerFunctions.UsageExample</RootNamespace>
+    <RootNamespace>Lego.PowerFunctions.App</RootNamespace>
     <ProjectTypeGuids>{b69e3092-b931-443c-abe7-7e7b65f2a37f};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <ProductVersion>9.0.21022</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{ED77C6CD-7C51-4FBF-B3C2-62E9F018D97A}</ProjectGuid>
+    <ProjectGuid>{6DA15591-F0DE-4A76-97AF-6E7F3B0A3694}</ProjectGuid>
     <TargetFrameworkVersion>v4.2</TargetFrameworkVersion>
     <NetMfTargetsBaseDir Condition="'$(NetMfTargetsBaseDir)'==''">$(MSBuildExtensionsPath32)\Microsoft\.NET Micro Framework\</NetMfTargetsBaseDir>
     <DeployDevice>Netduino</DeployDevice>
@@ -17,7 +17,7 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
-    <Optimize>true</Optimize>
+    <Optimize>false</Optimize>
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
@@ -31,11 +31,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>Gma.Netmf.Hardware.Lego.PowerFunctions.UsageExample.Program</StartupObject>
-  </PropertyGroup>
   <Import Project="$(NetMfTargetsBaseDir)$(TargetFrameworkVersion)\CSharp.Targets" />
   <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Program.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -49,16 +47,9 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Lego.PowerFunctions.WebApi\Lego.PowerFunctions.WebApi.csproj">
-      <Project>{A19E4DBB-885F-4E69-8D85-16167C9BCE39}</Project>
-      <Name>Lego.PowerFunctions.WebApi</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Lego.PowerFunctions\Lego.PowerFunctions.csproj">
       <Project>{DE7221E0-F7D2-4263-97F6-DEE1819AD2D6}</Project>
       <Name>Lego.PowerFunctions</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Properties\" />
   </ItemGroup>
 </Project>

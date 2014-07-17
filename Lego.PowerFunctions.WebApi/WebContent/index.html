@@ -1,0 +1,33 @@
+﻿<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Lego Power Functions Remote Control</title>
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.0/themes/smoothness/jquery-ui.css">
+        <link rel="stylesheet" href="css/hello.css">
+        <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+        <script src="js/hello.js"></script>
+    </head>
+    <body>
+        <script>
+        
+            $(function () {
+
+                var add = $("<div id='add'></div>")
+                    .addClass("list-left")
+                    .addClass("container")
+                    .text("+ add another control")
+                    .button()
+                    .click(function () {
+                        createControl();
+                    });
+                $("body").append(add);
+
+                createControl();
+            });
+
+        </script>
+        
+</body>   
+</html>
