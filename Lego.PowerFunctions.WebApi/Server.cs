@@ -3,9 +3,9 @@ using Gsiot.Server;
 
 namespace Gma.Netmf.Hardware.Lego.PowerFunctions.WebApi
 {
-    public class Class1
+    public static class Server
     {
-        public void TestX()
+        public static void Run()
         {
             var server = new HttpServer()
             {
@@ -26,10 +26,12 @@ namespace Gma.Netmf.Hardware.Lego.PowerFunctions.WebApi
             server.Run();
         }
 
-        private void Handler(RequestHandlerContext context)
+        private static void Handler(RequestHandlerContext context)
         {
             const string defaultPageName = "index.html";
             var path = context.RequestUri;
+       
+
             var suffix = path == string.Empty ? defaultPageName : path.Substring(1);
 
             context.SetResponse("hello", "text/plain");
